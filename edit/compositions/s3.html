@@ -1,0 +1,313 @@
+<template>
+<style>
+#root{position:absolute;inset:0;overflow:hidden;background:#090C0D}
+
+.pup{position:absolute;left:0;top:0;width:0;height:0}
+.pup-in,.pup-head,.pup-face{position:absolute;left:0;top:0;width:0;height:0}
+.pup img{position:absolute;max-width:none;display:block}
+.plate{position:absolute;left:0;top:0;width:854px;height:480px;object-fit:cover}
+#s3-cam{position:absolute;inset:0}
+</style>
+<div id="root" data-composition-id="s3" data-width="854" data-height="480">
+
+<div id="s3-cam" data-layout-ignore>
+  <img id="s3-plate-dark" class="plate" src="assets/plates/corridor_soft.jpg" alt="">
+  <img id="s3-plate-lit" class="plate" style="opacity:0" src="assets/plates/corridor_lit_soft.jpg" alt="">
+  <img id="s3-plate-sharp" class="plate" style="opacity:0" src="assets/plates/corridor_lit_sharp.jpg" alt="">
+  <div id="s3-timbg-dark" class="pup timbg" data-layout-ignore style="opacity:0"><div class="pup-in timbg-in">
+<img id="s3-timbg-dark-b-tim_jacket" class="timbg-b-tim_jacket" src="assets/cut/body_tim_jacket_dark.png" alt="" style="left:-62.7px;top:-7.4px;width:128.1px;height:300.0px;opacity:1">
+
+<div class="pup-head timbg-head">
+<div id="s3-timbg-dark-h-tim" class="pup-face timbg-h-tim" style="opacity:1"><img src="assets/cut/head_tim_dark.png" alt="" style="left:-82.5px;top:-206.9px;width:180.8px;height:245.9px"><img class="timbg-jaw-tim" src="assets/cut/jaw_tim_dark.png" alt="" style="left:-82.5px;top:-206.9px;width:180.8px;height:245.9px"><img class="timbg-full-tim" src="assets/cut/head_tim_full_dark.png" alt="" style="left:-82.5px;top:-206.9px;width:180.8px;height:245.9px"></div>
+</div></div></div>
+  <div id="s3-timbg-lit" class="pup timbg" data-layout-ignore style="opacity:0"><div class="pup-in timbg-in">
+<img id="s3-timbg-lit-b-tim_jacket" class="timbg-b-tim_jacket" src="assets/cut/body_tim_jacket.png" alt="" style="left:-62.7px;top:-7.4px;width:128.1px;height:300.0px;opacity:1">
+
+<div class="pup-head timbg-head">
+<div id="s3-timbg-lit-h-tim" class="pup-face timbg-h-tim" style="opacity:1"><img src="assets/cut/head_tim.png" alt="" style="left:-82.5px;top:-206.9px;width:180.8px;height:245.9px"><img class="timbg-jaw-tim" src="assets/cut/jaw_tim.png" alt="" style="left:-82.5px;top:-206.9px;width:180.8px;height:245.9px"><img class="timbg-full-tim" src="assets/cut/head_tim_full.png" alt="" style="left:-82.5px;top:-206.9px;width:180.8px;height:245.9px"></div>
+</div></div></div>
+  <img id="s3-wall" src="assets/plates/corridor_wall_r.jpg" alt="" style="position:absolute;left:618px;top:0;width:236px;height:480px;opacity:0">
+  <div id="s3-jen-lit" class="pup jen" data-layout-ignore><div class="pup-in jen-in">
+<img id="s3-jen-lit-b-jensen_jacket" class="jen-b-jensen_jacket" src="assets/cut/body_jensen_jacket.png" alt="" style="left:-71.8px;top:-7.4px;width:146.6px;height:300.0px;opacity:1">
+<img id="s3-jen-lit-b-jensen_tee" class="jen-b-jensen_tee" src="assets/cut/body_jensen_tee.png" alt="" style="left:-54.8px;top:-7.1px;width:110.4px;height:300.0px;opacity:0">
+
+<div class="pup-head jen-head">
+<div id="s3-jen-lit-h-jensen_smile" class="pup-face jen-h-jensen_smile" style="opacity:1"><img src="assets/cut/head_jensen_smile.png" alt="" style="left:-81.8px;top:-206.3px;width:167.2px;height:243.1px"><img class="jen-jaw-jensen_smile" src="assets/cut/jaw_jensen_smile.png" alt="" style="left:-81.8px;top:-206.3px;width:167.2px;height:243.1px"><img class="jen-full-jensen_smile" src="assets/cut/head_jensen_smile_full.png" alt="" style="left:-81.8px;top:-206.3px;width:167.2px;height:243.1px"></div>
+<div id="s3-jen-lit-h-jensen_surprised" class="pup-face jen-h-jensen_surprised" style="opacity:0"><img src="assets/cut/head_jensen_surprised.png" alt="" style="left:-89.3px;top:-206.0px;width:193.8px;height:242.5px"><img class="jen-jaw-jensen_surprised" src="assets/cut/jaw_jensen_surprised.png" alt="" style="left:-89.3px;top:-206.0px;width:193.8px;height:242.5px"><img class="jen-full-jensen_surprised" src="assets/cut/head_jensen_surprised_full.png" alt="" style="left:-89.3px;top:-206.0px;width:193.8px;height:242.5px"></div>
+</div></div></div>
+  <div id="s3-holed" style="position:absolute;inset:0;-webkit-mask-image:linear-gradient(to bottom,#000 0,#000 166.0px,transparent 179.0px,transparent 211.0px,#000 224.0px,#000 100%);mask-image:linear-gradient(to bottom,#000 0,#000 166.0px,transparent 179.0px,transparent 211.0px,#000 224.0px,#000 100%)">
+    <div id="s3-jen-holed" class="pup jen" data-layout-ignore><div class="pup-in jen-in">
+<img id="s3-jen-holed-b-jensen_jacket" class="jen-b-jensen_jacket" src="assets/cut/body_jensen_jacket_dark.png" alt="" style="left:-71.8px;top:-7.4px;width:146.6px;height:300.0px;opacity:1">
+
+<div class="pup-head jen-head">
+<div id="s3-jen-holed-h-jensen_smile" class="pup-face jen-h-jensen_smile" style="opacity:1"><img src="assets/cut/head_jensen_smile_dark.png" alt="" style="left:-81.8px;top:-206.3px;width:167.2px;height:243.1px"><img class="jen-jaw-jensen_smile" src="assets/cut/jaw_jensen_smile_dark.png" alt="" style="left:-81.8px;top:-206.3px;width:167.2px;height:243.1px"><img class="jen-full-jensen_smile" src="assets/cut/head_jensen_smile_full_dark.png" alt="" style="left:-81.8px;top:-206.3px;width:167.2px;height:243.1px"></div>
+</div></div></div>
+  </div>
+  <div id="s3-jen-dark" class="pup jen" data-layout-ignore><div class="pup-in jen-in">
+<img id="s3-jen-dark-b-jensen_jacket" class="jen-b-jensen_jacket" src="assets/cut/body_jensen_jacket_dark.png" alt="" style="left:-71.8px;top:-7.4px;width:146.6px;height:300.0px;opacity:1">
+
+<div class="pup-head jen-head">
+<div id="s3-jen-dark-h-jensen_smile" class="pup-face jen-h-jensen_smile" style="opacity:1"><img src="assets/cut/head_jensen_smile_dark.png" alt="" style="left:-81.8px;top:-206.3px;width:167.2px;height:243.1px"><img class="jen-jaw-jensen_smile" src="assets/cut/jaw_jensen_smile_dark.png" alt="" style="left:-81.8px;top:-206.3px;width:167.2px;height:243.1px"><img class="jen-full-jensen_smile" src="assets/cut/head_jensen_smile_full_dark.png" alt="" style="left:-81.8px;top:-206.3px;width:167.2px;height:243.1px"></div>
+</div></div></div>
+  <div id="s3-jen-blur" class="pup jen" data-layout-ignore style="opacity:0"><div class="pup-in jen-in">
+<img id="s3-jen-blur-b-jensen_tee" class="jen-b-jensen_tee" src="assets/cut/body_jensen_tee_blur.png" alt="" style="left:-54.8px;top:-7.1px;width:110.4px;height:300.0px;opacity:1">
+
+<div class="pup-head jen-head">
+<div id="s3-jen-blur-h-jensen_surprised" class="pup-face jen-h-jensen_surprised" style="opacity:1"><img src="assets/cut/head_jensen_surprised_blur.png" alt="" style="left:-89.3px;top:-206.0px;width:193.8px;height:242.5px"><img class="jen-jaw-jensen_surprised" src="assets/cut/jaw_jensen_surprised_blur.png" alt="" style="left:-89.3px;top:-206.0px;width:193.8px;height:242.5px"><img class="jen-full-jensen_surprised" src="assets/cut/head_jensen_surprised_full_blur.png" alt="" style="left:-89.3px;top:-206.0px;width:193.8px;height:242.5px"></div>
+</div></div></div>
+  <div id="s3-strip" style="position:absolute;left:0;top:180.0px;width:854px;height:30px;background:linear-gradient(to bottom,rgba(118,185,0,0),rgba(118,185,0,.30) 45%,rgba(118,185,0,.30) 55%,rgba(118,185,0,0));mix-blend-mode:screen;opacity:0"></div>
+  <img id="s3-jacket" src="assets/cut/prop_jacket.png" alt="" style="position:absolute;left:-148.0px;top:-93.5px;width:296.0px;height:187.0px;opacity:0">
+</div>
+
+</div>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+// fromTo that leaves the element alone until its time comes
+const FT = (sel, from, to, at) => tl.fromTo(sel, from, Object.assign({ immediateRender: false }, to), at);
+// a set that lands 4 ms before its frame: rounding can then never push a pose one frame late
+const ST = (sel, props, at) => tl.set(sel, props, Math.max(0, at - 0.004));
+
+gsap.set("#s3-cam", {transformOrigin: "427.0px 196.0px", scale: 1});
+gsap.set(".jen", {x: 427.0, y: 221.6, scale: 0.246});
+gsap.set(".timbg", {x: 668, y: 216.8, scale: 0.2});
+gsap.set("#s3-jacket", {x: 427.0, y: 407.6, scale: 0.82});
+gsap.set(".jen-head", {rotation: 0, y: 0});
+gsap.set(".jen-in, .timbg-in", {scale: 1, y: 0, rotation: 0});
+gsap.set(".jen-h-jensen_smile, .jen-h-jensen_surprised", {rotation: 0, y: 0});
+gsap.set(".jen-b-jensen_jacket", {transformOrigin: "50% 0%", rotation: 0});
+// he walks up out of the dark, on twos
+gsap.set(".jen", {x: 427.000, y: 221.629, scale: 0.246});
+ST(".jen", {x: 427.000, y: 221.629, scale: 0.246}, 0.0000);
+ST(".jen", {x: 427.000, y: 223.152, scale: 0.261}, 0.0833);
+ST(".jen", {x: 427.000, y: 225.563, scale: 0.278}, 0.1667);
+ST(".jen", {x: 427.000, y: 226.817, scale: 0.296}, 0.2500);
+ST(".jen", {x: 427.000, y: 229.047, scale: 0.318}, 0.3333);
+ST(".jen", {x: 427.000, y: 231.626, scale: 0.343}, 0.4167);
+ST(".jen", {x: 427.000, y: 235.569, scale: 0.372}, 0.5000);
+ST(".jen", {x: 427.000, y: 238.212, scale: 0.406}, 0.5833);
+ST(".jen", {x: 427.000, y: 242.511, scale: 0.447}, 0.6667);
+ST(".jen", {x: 427.000, y: 247.786, scale: 0.498}, 0.7500);
+ST(".jen", {x: 427.000, y: 255.813, scale: 0.562}, 0.8333);
+ST(".jen", {x: 427.000, y: 262.976, scale: 0.644}, 0.9167);
+ST(".jen", {x: 427.000, y: 274.488, scale: 0.755}, 1.0000);
+ST(".jen", {x: 427.000, y: 290.777, scale: 0.911}, 1.0833);
+ST(".jen", {x: 427.000, y: 318.475, scale: 1.150}, 1.1667);
+FT("#s3-cam", {scale: 1}, {scale: 1.035, duration: 2.4800, ease: "none"}, 0.01);
+ST(".jen-in", {rotation: -0.056}, 1.3333);
+ST(".jen-in", {rotation: -0.325}, 1.5000);
+ST(".jen-in", {rotation: -0.542}, 1.6667);
+ST(".jen-in", {rotation: -0.672}, 1.8333);
+ST(".jen-in", {rotation: -0.695}, 2.0000);
+ST(".jen-in", {rotation: -0.606}, 2.1667);
+ST(".jen-in", {rotation: -0.421}, 2.3333);
+ST(".jen-in", {rotation: -0.168}, 2.5000);
+ST(".jen-in", {rotation: 0.112}, 2.6667);
+ST(".jen-in", {rotation: 0.374}, 2.8333);
+ST(".jen-in", {rotation: 0.576}, 3.0000);
+ST(".jen-in", {rotation: 0.686}, 3.1667);
+ST(".jen-in", {rotation: 0.686}, 3.3333);
+ST(".jen-in", {rotation: 0.576}, 3.5000);
+ST(".jen-in", {rotation: 0.374}, 3.6667);
+ST(".jen-in", {rotation: 0.112}, 3.8333);
+ST(".jen-in", {rotation: -0.168}, 4.0000);
+ST(".jen-in", {rotation: -0.421}, 4.1667);
+ST(".jen-in", {rotation: -0.606}, 4.3333);
+ST(".jen-in", {rotation: -0.695}, 4.5000);
+ST(".jen-in", {rotation: -0.672}, 4.6667);
+ST(".jen-in", {rotation: -0.542}, 4.8333);
+ST(".jen-in", {rotation: -0.325}, 5.0000);
+ST(".jen-in", {rotation: -0.056}, 5.1667);
+ST(".jen-in", {rotation: 0.222}, 5.3333);
+ST(".jen-in", {rotation: 0.464}, 5.5000);
+ST(".jen-in", {rotation: 0.632}, 5.6667);
+ST(".jen-in", {rotation: 0.699}, 5.8333);
+ST(".jen-in", {rotation: 0.655}, 6.0000);
+ST(".jen-in", {rotation: 0.505}, 6.1667);
+ST(".jen-in", {rotation: 0.274}, 6.3333);
+ST(".jen-in", {rotation: 0.000}, 6.5000);
+ST(".jen-in", {rotation: -0.274}, 6.6667);
+ST(".jen-in", {rotation: -0.505}, 6.8333);
+ST(".jen-in", {rotation: -0.655}, 7.0000);
+ST(".jen-in", {rotation: -0.699}, 7.1667);
+ST(".jen-in", {rotation: -0.632}, 7.3333);
+ST(".jen-in", {rotation: -0.464}, 7.5000);
+ST(".jen-in", {rotation: -0.222}, 7.6667);
+ST(".jen-in", {rotation: 0.056}, 7.8333);
+ST(".jen-in", {rotation: 0.325}, 8.0000);
+ST(".jen-in", {rotation: 0.542}, 8.1667);
+ST(".jen-in", {rotation: 0.672}, 8.3333);
+ST(".jen-in", {rotation: 0.695}, 8.5000);
+ST(".jen-in", {rotation: 0.606}, 8.6667);
+ST(".jen-in", {rotation: 0.421}, 8.8333);
+ST(".jen-in", {rotation: 0.168}, 9.0000);
+ST(".jen-in", {rotation: -0.112}, 9.1667);
+ST(".jen-in", {rotation: -0.374}, 9.3333);
+ST(".jen-in", {rotation: -0.576}, 9.5000);
+ST(".jen-in", {rotation: -0.686}, 9.6667);
+ST(".jen-in", {rotation: -0.686}, 9.8333);
+ST(".jen-in", {rotation: -0.576}, 10.0000);
+ST(".jen-in", {rotation: -0.374}, 10.1667);
+ST(".jen-in", {rotation: -0.112}, 10.3333);
+ST(".jen-in", {rotation: 0.168}, 10.5000);
+ST(".jen-in", {rotation: 0.421}, 10.6667);
+ST(".jen-in", {rotation: 0.606}, 10.8333);
+ST(".jen-in", {rotation: 0.695}, 11.0000);
+ST(".jen-in", {rotation: 0.672}, 11.1667);
+ST(".jen-in", {rotation: 0.542}, 11.3333);
+ST(".jen-in", {rotation: 0.325}, 11.5000);
+ST(".jen-in", {rotation: 0.056}, 11.6667);
+ST(".jen-in", {rotation: -0.222}, 11.8333);
+ST(".jen-in", {rotation: -0.464}, 12.0000);
+ST(".jen-in", {rotation: -0.632}, 12.1667);
+ST(".jen-in", {rotation: -0.699}, 12.3333);
+ST(".jen-in", {rotation: -0.655}, 12.5000);
+ST(".jen-in", {rotation: -0.505}, 12.6667);
+ST(".jen-in", {rotation: -0.274}, 12.8333);
+ST(".jen-in", {rotation: -0.000}, 13.0000);
+// the strip of light finds his eyes
+FT("#s3-strip", {opacity: 0}, {opacity: 1, duration: 0.9, ease: "power2.in"}, 0.0084);
+FT("#s3-jen-dark", {opacity: 1}, {opacity: 0, duration: 0.125, ease: "none"}, 0.9184);
+ST(".jen-full-jensen_smile", {opacity: 0}, 1.1667);
+ST(".jen-full-jensen_smile", {opacity: 1}, 2.6667);
+ST(".jen-jaw-jensen_smile", {y: 18.00}, 1.1667);
+ST(".jen-h-jensen_smile", {rotation: -2.00, y: -3.00}, 1.1667);
+ST(".jen-jaw-jensen_smile", {y: 12.01}, 1.4167);
+ST(".jen-h-jensen_smile", {rotation: 1.50, y: -2.00}, 1.4167);
+ST(".jen-jaw-jensen_smile", {y: 0.00}, 1.5000);
+ST(".jen-h-jensen_smile", {rotation: 0.00, y: -0.00}, 1.5000);
+ST(".jen-jaw-jensen_smile", {y: 18.00}, 1.6667);
+ST(".jen-h-jensen_smile", {rotation: 2.00, y: -3.00}, 1.6667);
+ST(".jen-jaw-jensen_smile", {y: 0.00}, 2.0834);
+ST(".jen-h-jensen_smile", {rotation: 0.00, y: -0.00}, 2.0834);
+ST(".jen-jaw-jensen_smile", {y: 12.01}, 2.1667);
+ST(".jen-h-jensen_smile", {rotation: 1.50, y: -2.00}, 2.1667);
+ST(".jen-jaw-jensen_smile", {y: 6.00}, 2.3334);
+ST(".jen-h-jensen_smile", {rotation: -1.00, y: -1.00}, 2.3334);
+ST(".jen-jaw-jensen_smile", {y: 18.00}, 2.4167);
+ST(".jen-h-jensen_smile", {rotation: 2.00, y: -3.00}, 2.4167);
+ST(".jen-jaw-jensen_smile", {y: 12.01}, 2.5000);
+ST(".jen-h-jensen_smile", {rotation: -1.50, y: -2.00}, 2.5000);
+ST(".jen-jaw-jensen_smile", {y: 18.00}, 2.5834);
+ST(".jen-h-jensen_smile", {rotation: 2.00, y: -3.00}, 2.5834);
+ST(".jen-jaw-jensen_smile", {y: 0.00}, 2.6667);
+ST(".jen-h-jensen_smile", {rotation: 0.00, y: -0.00}, 2.6667);
+// "No": the lights come up and the camera punches in
+ST("#s3-plate-lit", {opacity: 1}, 2.5000);
+ST("#s3-holed, #s3-strip", {opacity: 0}, 2.5000);
+ST("#s3-cam", {scale: 1.22}, 2.5000);
+FT("#s3-cam", {scale: 1.22}, {scale: 1.3, duration: 7.7417, ease: "none"}, 2.5100);
+ST(".jen-h-jensen_smile", {opacity: 0}, 2.6667);
+ST(".jen-h-jensen_surprised", {opacity: 1}, 2.6667);
+FT(".jen-head", {y: -9, rotation: -3}, {y: 0, rotation: 0, duration: 0.25, ease: "power2.out"}, 2.6667);
+ST(".jen-full-jensen_surprised", {opacity: 0}, 5.2500);
+ST(".jen-full-jensen_surprised", {opacity: 1}, 7.0000);
+ST(".jen-jaw-jensen_surprised", {y: 18.00}, 5.2500);
+ST(".jen-h-jensen_surprised", {rotation: -2.00, y: -3.00}, 5.2500);
+ST(".jen-jaw-jensen_surprised", {y: 12.01}, 5.5834);
+ST(".jen-h-jensen_surprised", {rotation: 1.50, y: -2.00}, 5.5834);
+ST(".jen-jaw-jensen_surprised", {y: 5.99}, 5.7500);
+ST(".jen-h-jensen_surprised", {rotation: -1.00, y: -1.00}, 5.7500);
+ST(".jen-jaw-jensen_surprised", {y: 0.00}, 5.8334);
+ST(".jen-h-jensen_surprised", {rotation: 0.00, y: -0.00}, 5.8334);
+ST(".jen-jaw-jensen_surprised", {y: 18.00}, 6.2500);
+ST(".jen-h-jensen_surprised", {rotation: -2.00, y: -3.00}, 6.2500);
+ST(".jen-jaw-jensen_surprised", {y: 12.01}, 6.4167);
+ST(".jen-h-jensen_surprised", {rotation: 1.50, y: -2.00}, 6.4167);
+ST(".jen-jaw-jensen_surprised", {y: 18.00}, 6.5000);
+ST(".jen-h-jensen_surprised", {rotation: -2.00, y: -3.00}, 6.5000);
+ST(".jen-jaw-jensen_surprised", {y: 12.01}, 6.8334);
+ST(".jen-h-jensen_surprised", {rotation: 1.50, y: -2.00}, 6.8334);
+ST(".jen-jaw-jensen_surprised", {y: 5.99}, 6.9167);
+ST(".jen-h-jensen_surprised", {rotation: -1.00, y: -1.00}, 6.9167);
+ST(".jen-jaw-jensen_surprised", {y: 0.00}, 7.0000);
+ST(".jen-h-jensen_surprised", {rotation: 0.00, y: -0.00}, 7.0000);
+FT(".jen-in", {scale: 1}, {scale: 1.05, duration: 1.1, ease: "power1.out"}, 5.2667);
+// hope
+ST(".jen-h-jensen_surprised", {opacity: 0}, 8.5834);
+ST(".jen-h-jensen_smile", {opacity: 1}, 8.5834);
+FT(".jen-head", {rotation: 0}, {rotation: 5, duration: 0.2, ease: "back.out(2)"}, 8.5834);
+ST(".jen-full-jensen_smile", {opacity: 0}, 8.7500);
+ST(".jen-full-jensen_smile", {opacity: 1}, 9.6667);
+ST(".jen-jaw-jensen_smile", {y: 0.00}, 8.6667);
+ST(".jen-h-jensen_smile", {rotation: 0.00, y: -0.00}, 8.6667);
+ST(".jen-jaw-jensen_smile", {y: 12.01}, 8.7500);
+ST(".jen-h-jensen_smile", {rotation: 1.50, y: -2.00}, 8.7500);
+ST(".jen-jaw-jensen_smile", {y: 6.00}, 8.8334);
+ST(".jen-h-jensen_smile", {rotation: -1.00, y: -1.00}, 8.8334);
+ST(".jen-jaw-jensen_smile", {y: 12.01}, 8.9167);
+ST(".jen-h-jensen_smile", {rotation: 1.50, y: -2.00}, 8.9167);
+ST(".jen-jaw-jensen_smile", {y: 18.00}, 9.0000);
+ST(".jen-h-jensen_smile", {rotation: -2.00, y: -3.00}, 9.0000);
+ST(".jen-jaw-jensen_smile", {y: 12.01}, 9.5834);
+ST(".jen-h-jensen_smile", {rotation: 1.50, y: -2.00}, 9.5834);
+ST(".jen-jaw-jensen_smile", {y: 0.00}, 9.6667);
+ST(".jen-h-jensen_smile", {rotation: 0.00, y: -0.00}, 9.6667);
+// "No.": hold on the smile, close
+ST("#s3-cam", {scale: 1.95}, 10.2917);
+FT("#s3-cam", {scale: 1.95}, {scale: 2.02, duration: 1.3667, ease: "none"}, 10.3017);
+ST(".jen-h-jensen_smile", {opacity: 0}, 11.3750);
+ST(".jen-h-jensen_surprised", {opacity: 1}, 11.3750);
+FT(".jen-head", {rotation: 5, y: 0}, {rotation: -7, y: 9, duration: 0.25, ease: "power2.in"}, 11.3750);
+// "Jacket.": wide again; it unzips, leaves him and flies to the man behind the glass
+ST("#s3-cam", {scale: 1}, 11.7084);
+FT("#s3-cam", {scale: 1}, {scale: 1.05, duration: 3.7833, ease: "none"}, 11.7184);
+ST(".jen-in", {scale: 1}, 11.7084);
+ST(".jen-b-jensen_jacket", {rotation: -2.5, transformOrigin: "50% 0%"}, 12.7084);
+ST(".jen-b-jensen_jacket", {rotation: 2.5}, 12.7501);
+ST(".jen-b-jensen_jacket", {rotation: 0, opacity: 0}, 12.8334);
+ST(".jen-b-jensen_tee", {opacity: 1}, 12.8334);
+ST("#s3-jacket", {opacity: 1}, 12.8334);
+ST("#s3-jacket", {x: 427.000, y: 407.600, scale: 0.820, rotation: -0.000}, 12.8333);
+ST("#s3-jacket", {x: 427.523, y: 404.850, scale: 0.817, rotation: -0.865}, 12.8750);
+ST("#s3-jacket", {x: 429.038, y: 396.892, scale: 0.809, rotation: -3.368}, 12.9167);
+ST("#s3-jacket", {x: 431.461, y: 384.189, scale: 0.796, rotation: -7.374}, 12.9583);
+ST("#s3-jacket", {x: 434.711, y: 367.270, scale: 0.779, rotation: -12.745}, 13.0000);
+ST("#s3-jacket", {x: 438.703, y: 346.779, scale: 0.757, rotation: -19.345}, 13.0417);
+ST("#s3-jacket", {x: 443.357, y: 323.515, scale: 0.732, rotation: -27.037}, 13.0833);
+ST("#s3-jacket", {x: 448.589, y: 298.449, scale: 0.704, rotation: -35.685}, 13.1250);
+ST("#s3-jacket", {x: 454.317, y: 272.704, scale: 0.673, rotation: -45.152}, 13.1667);
+ST("#s3-jacket", {x: 460.458, y: 247.508, scale: 0.640, rotation: -55.303}, 13.2083);
+ST("#s3-jacket", {x: 466.929, y: 224.107, scale: 0.606, rotation: -65.999}, 13.2500);
+ST("#s3-jacket", {x: 473.649, y: 203.661, scale: 0.569, rotation: -77.105}, 13.2917);
+ST("#s3-jacket", {x: 480.533, y: 187.136, scale: 0.532, rotation: -88.484}, 13.3333);
+ST("#s3-jacket", {x: 487.500, y: 175.200, scale: 0.495, rotation: -100.000}, 13.3750);
+ST("#s3-jacket", {x: 494.467, y: 168.158, scale: 0.458, rotation: -111.516}, 13.4167);
+ST("#s3-jacket", {x: 501.351, y: 165.931, scale: 0.421, rotation: -122.895}, 13.4583);
+ST("#s3-jacket", {x: 508.071, y: 168.073, scale: 0.384, rotation: -134.001}, 13.5000);
+ST("#s3-jacket", {x: 514.542, y: 173.847, scale: 0.350, rotation: -144.697}, 13.5417);
+ST("#s3-jacket", {x: 520.683, y: 182.316, scale: 0.317, rotation: -154.848}, 13.5833);
+ST("#s3-jacket", {x: 526.411, y: 192.458, scale: 0.286, rotation: -164.315}, 13.6250);
+ST("#s3-jacket", {x: 531.643, y: 203.272, scale: 0.258, rotation: -172.963}, 13.6667);
+ST("#s3-jacket", {x: 536.297, y: 213.859, scale: 0.233, rotation: -180.655}, 13.7083);
+ST("#s3-jacket", {x: 540.289, y: 223.473, scale: 0.211, rotation: -187.255}, 13.7500);
+ST("#s3-jacket", {x: 543.539, y: 231.541, scale: 0.194, rotation: -192.626}, 13.7917);
+ST("#s3-jacket", {x: 545.962, y: 237.643, scale: 0.181, rotation: -196.632}, 13.8333);
+ST("#s3-jacket", {x: 547.477, y: 241.475, scale: 0.173, rotation: -199.135}, 13.8750);
+ST("#s3-jacket", {x: 548.000, y: 242.800, scale: 0.170, rotation: -200.000}, 13.9167);
+ST("#s3-jacket", {opacity: 0}, 13.9167);
+// focus moves to the room behind
+ST("#s3-timbg-dark, #s3-wall", {opacity: 1}, 13.0834);
+ST(".timbg", {x: 668.000, y: 216.800, scale: 0.200}, 13.0833);
+ST(".timbg", {x: 656.000, y: 216.800, scale: 0.200}, 13.1667);
+ST(".timbg", {x: 644.000, y: 217.600, scale: 0.200}, 13.2500);
+ST(".timbg", {x: 632.000, y: 216.800, scale: 0.200}, 13.3333);
+ST(".timbg", {x: 620.000, y: 216.800, scale: 0.200}, 13.4167);
+ST(".timbg", {x: 608.000, y: 216.800, scale: 0.200}, 13.5000);
+ST(".timbg", {x: 596.000, y: 217.600, scale: 0.200}, 13.5833);
+ST(".timbg", {x: 584.000, y: 216.800, scale: 0.200}, 13.6667);
+ST(".timbg", {x: 572.000, y: 216.800, scale: 0.200}, 13.7500);
+ST(".timbg", {x: 560.000, y: 216.800, scale: 0.200}, 13.8333);
+ST(".timbg", {x: 548.000, y: 217.600, scale: 0.200}, 13.9167);
+FT("#s3-plate-sharp", {opacity: 0}, {opacity: 1, duration: 0.7, ease: "power1.inOut"}, 13.0834);
+FT("#s3-jen-blur", {opacity: 0}, {opacity: 1, duration: 0.5, ease: "power1.in"}, 13.0834);
+FT("#s3-jen-lit", {opacity: 1}, {opacity: 0, duration: 0.3, ease: "none"}, 13.4834);
+FT(".jen", {x: 427.0}, {x: 232, duration: 0.9, ease: "power2.inOut"}, 13.3334);
+ST("#s3-timbg-dark", {opacity: 0}, 13.9167);
+ST("#s3-timbg-lit", {opacity: 1}, 13.9167);
+FT(".timbg-in", {y: -7}, {y: 0, duration: 0.3, ease: "bounce.out"}, 13.9167);
+
+window.__timelines["s3"] = tl;
+})();
+</script>
+</template>

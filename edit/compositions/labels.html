@@ -1,0 +1,50 @@
+<template>
+<style>
+#root{position:absolute;inset:0;overflow:hidden;background:#090C0D}
+
+.pup{position:absolute;left:0;top:0;width:0;height:0}
+.pup-in,.pup-head,.pup-face{position:absolute;left:0;top:0;width:0;height:0}
+.pup img{position:absolute;max-width:none;display:block}
+.plate{position:absolute;left:0;top:0;width:854px;height:480px;object-fit:cover}
+
+#root{background:transparent}
+#lab-premise{position:absolute;left:0;top:0;width:854px;height:50px;background:#090C0D;color:#fff;word-spacing:.12em;font-family:'Oswald',sans-serif;
+ font-weight:700;font-size:25px;line-height:50px;letter-spacing:.035em;padding-left:22px;white-space:nowrap}
+#lab-premise span{color:#76B900}
+#lab-parody{position:absolute;left:750px;top:13px;width:88px;height:25px;background:#76B900;color:#090C0D;font-family:'Oswald',sans-serif;
+ font-weight:700;font-size:16px;line-height:25px;letter-spacing:.15em;text-align:center;border-radius:2px}
+.lt{position:absolute;left:38px;top:316px;font-family:'Oswald',sans-serif;white-space:nowrap}
+.lt b{display:block;background:#FBF9F2;color:#090C0D;font-weight:700;font-size:28px;line-height:37px;padding:0 12px;letter-spacing:.04em;word-spacing:.14em}
+.lt i{display:inline-block;position:relative;font-style:normal;background:#76B900;color:#090C0D;font-weight:700;font-size:19px;line-height:26px;word-spacing:.14em;
+ padding:0 11px;letter-spacing:.14em}
+.lt u{position:absolute;left:6px;right:6px;top:11px;height:5px;background:#C8102E;text-decoration:none}
+
+</style>
+<div id="root" data-composition-id="labels" data-width="854" data-height="480">
+
+<div id="lab-premise" class="clip" data-start="0" data-duration="3.0" data-layout-allow-overlap>NVIDIA'S KEYNOTE OPENER, <span>AFTER THE MODEL INCIDENT</span></div>
+<div id="lab-parody" class="clip" data-start="0" data-duration="40.8333" data-layout-allow-overlap>PARODY</div>
+<div id="lab-jensen" class="clip lt" data-start="6.7020" data-duration="3.8180"><b>JENSEN HUANG</b><i>OPENER<u id="lab-jensen-strike"></u></i></div>
+<div id="lab-tim" class="clip lt" data-start="21.7750" data-duration="2.7667"><b>TIM COOK</b><i>NEW OPENER</i></div>
+
+</div>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+// fromTo that leaves the element alone until its time comes
+const FT = (sel, from, to, at) => tl.fromTo(sel, from, Object.assign({ immediateRender: false }, to), at);
+// a set that lands 4 ms before its frame: rounding can then never push a pose one frame late
+const ST = (sel, props, at) => tl.set(sel, props, Math.max(0, at - 0.004));
+
+gsap.set("#lab-jensen, #lab-tim", {x: -30, opacity: 0});
+gsap.set("#lab-jensen-strike", {scaleX: 0, transformOrigin: "0% 50%"});
+FT("#lab-premise", {y: 0}, {y: -52, duration: 0.2, ease: "power2.in"}, 2.7900);
+FT("#lab-jensen", {x: -30, opacity: 0}, {x: 0, opacity: 1, duration: 0.3, ease: "power3.out"}, 6.7020);
+FT("#lab-jensen-strike", {scaleX: 0, transformOrigin: "0% 50%"}, {scaleX: 1, duration: 0.2, ease: "power2.out"}, 8.2500);
+FT("#lab-jensen", {opacity: 1}, {opacity: 0, duration: 0.2, ease: "power1.in"}, 10.3000);
+FT("#lab-tim", {x: -30, opacity: 0}, {x: 0, opacity: 1, duration: 0.3, ease: "power3.out"}, 21.7750);
+
+window.__timelines["labels"] = tl;
+})();
+</script>
+</template>

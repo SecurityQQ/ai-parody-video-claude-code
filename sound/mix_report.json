@@ -1,0 +1,46 @@
+{
+ "out": "mix.wav",
+ "stems": "mix_stems",
+ "platform": "x",
+ "target_lufs": -14,
+ "target_tp": -2.6,
+ "pre_master": {
+  "lufs": -17.65,
+  "true_peak": 0.52
+ },
+ "master_gain_db": 4.41,
+ "final": {
+  "lufs": -14.24,
+  "true_peak": -3.09,
+  "lra": 11.6
+ },
+ "voice_windows": [
+  [
+   0.3,
+   6.122
+  ],
+  [
+   6.752,
+   16.402
+  ],
+  [
+   17.309,
+   18.254
+  ],
+  [
+   19.92,
+   20.949
+  ],
+  [
+   21.585,
+   35.941
+  ]
+ ],
+ "duck": {
+  "depth_db": 10.0,
+  "down_s": 0.15,
+  "up_s": 0.15,
+  "carve": "lows 35%, 300 Hz-4 kHz 100%, highs 65% of the depth"
+ },
+ "note": "stems are pre-master; apply master_gain_db to compare them with the mix"
+}

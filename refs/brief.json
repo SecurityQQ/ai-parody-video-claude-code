@@ -1,0 +1,58 @@
+{
+ "idea": {
+  "v": "Nvidia's keynote opener hands the job from Jensen Huang to Tim Cook, and the viewer laughs at how Apple it gets at once",
+  "m": "said"
+ },
+ "feeling": {
+  "v": [
+   "deadpan",
+   "slick"
+  ],
+  "opposite": "mean",
+  "m": "assumed"
+ },
+ "subject": {
+  "v": "Tim Cook replacing Jensen Huang because of the model incident",
+  "m": "said"
+ },
+ "world": {
+  "v": "a chip company's glass headquarters, 2026",
+  "m": "assumed"
+ },
+ "medium": {
+  "v": "photo cut-outs animated in code over generated plates, with two generated video shots that show no face",
+  "m": "assumed"
+ },
+ "audience": {
+  "v": "tech and finance X",
+  "m": "assumed"
+ },
+ "platform": {
+  "v": "X, 16:9, 854x480, 24 fps, about 30 s",
+  "m": "said: 480p; the rest assumed"
+ },
+ "method": {
+  "v": "both: code and AI generation",
+  "m": "said: ten steps"
+ },
+ "constraints": {
+  "v": [
+   "their real pictures",
+   "480p",
+   "adjust another funny video"
+  ],
+  "m": "said"
+ },
+ "loves": {
+  "v": [],
+  "m": "asked: no (the /goal forbids stopping to ask)"
+ },
+ "hates": {
+  "v": [],
+  "m": "asked: no"
+ },
+ "questions_not_asked": [
+  "What do you hate in videos like this?",
+  "Photo cut-outs, or model-made faces?"
+ ]
+}

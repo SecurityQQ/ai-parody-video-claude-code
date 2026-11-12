@@ -1,0 +1,160 @@
+{
+ "title": "Guide clip for sh020 (feet)",
+ "frame": {
+  "w": 1280,
+  "h": 720,
+  "fps": 24
+ },
+ "fill": 0.55,
+ "boxes": [
+  {
+   "name": "p_floor",
+   "center": [
+    -37,
+    3,
+    -0.05
+   ],
+   "size": [
+    30,
+    10,
+    0.1
+   ],
+   "grey": 0.34
+  },
+  {
+   "name": "p_glass",
+   "center": [
+    -37,
+    3.4,
+    1.6
+   ],
+   "size": [
+    30,
+    0.1,
+    3.2
+   ],
+   "grey": 0.62
+  },
+  {
+   "name": "p_mullion_1",
+   "center": [
+    -41.5,
+    3.3,
+    1.6
+   ],
+   "size": [
+    0.08,
+    0.1,
+    3.2
+   ],
+   "grey": 0.2,
+   "no_block": true
+  },
+  {
+   "name": "p_mullion_2",
+   "center": [
+    -38.5,
+    3.3,
+    1.6
+   ],
+   "size": [
+    0.08,
+    0.1,
+    3.2
+   ],
+   "grey": 0.2,
+   "no_block": true
+  },
+  {
+   "name": "p_mullion_3",
+   "center": [
+    -35.5,
+    3.3,
+    1.6
+   ],
+   "size": [
+    0.08,
+    0.1,
+    3.2
+   ],
+   "grey": 0.2,
+   "no_block": true
+  },
+  {
+   "name": "p_mullion_4",
+   "center": [
+    -32.5,
+    3.3,
+    1.6
+   ],
+   "size": [
+    0.08,
+    0.1,
+    3.2
+   ],
+   "grey": 0.2,
+   "no_block": true
+  }
+ ],
+ "figures": [
+  {
+   "name": "walker",
+   "height": 1.7,
+   "color": 0.12,
+   "keys": [
+    {
+     "t": 0,
+     "pos": [
+      -42.0,
+      2.0,
+      0
+     ],
+     "heading": 90
+    },
+    {
+     "t": 5.0,
+     "pos": [
+      -35.0,
+      2.0,
+      0
+     ],
+     "heading": 90
+    }
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "g2",
+   "start": 0,
+   "end": 5.0,
+   "lens": 35,
+   "ease": "linear",
+   "subjects": [],
+   "from": {
+    "pos": [
+     -41.6,
+     0.5,
+     0.14
+    ],
+    "look": [
+     -41.5,
+     2.0,
+     0.22
+    ]
+   },
+   "to": {
+    "pos": [
+     -35.86,
+     0.5,
+     0.14
+    ],
+    "look": [
+     -35.760000000000005,
+     2.0,
+     0.22
+    ]
+   }
+  }
+ ]
+}

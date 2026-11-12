@@ -1,0 +1,269 @@
+{
+ "duration": 40.8333,
+ "fps": 24,
+ "platform": "x",
+ "target": {
+  "lufs": -14,
+  "true_peak": -2.6
+ },
+ "duck": {
+  "depth_db": 10,
+  "ramp": 0.15
+ },
+ "checks": {
+  "voice_over_music_db": 10
+ },
+ "cuts": [
+  3.0,
+  5.5833,
+  8.0833,
+  15.875,
+  17.2917,
+  21.125,
+  24.5417,
+  36.3333
+ ],
+ "silences": [
+  {
+   "start": 16.4,
+   "end": 17.31,
+   "why": "the beat after 'No.': his smile hangs, room tone only"
+  },
+  {
+   "start": 10.42,
+   "end": 10.85,
+   "why": "he takes it in"
+  },
+  {
+   "start": 35.94,
+   "end": 36.3333,
+   "why": "the last line lands before the end card"
+  }
+ ],
+ "tracks": [
+  {
+   "id": "D1",
+   "role": "voice",
+   "file": "vo/D1.wav",
+   "start": 0.3,
+   "gain_db": 1.7
+  },
+  {
+   "id": "J1",
+   "role": "voice",
+   "file": "vo/J1.wav",
+   "start": 6.752,
+   "gain_db": 0.7,
+   "length": 1.42,
+   "fade_out": 0.03
+  },
+  {
+   "id": "D2",
+   "role": "voice",
+   "file": "vo/D2.wav",
+   "start": 8.1,
+   "gain_db": 1.3
+  },
+  {
+   "id": "J2",
+   "role": "voice",
+   "file": "vo/J2_t02.wav",
+   "start": 10.85,
+   "gain_db": 3.9
+  },
+  {
+   "id": "D3",
+   "role": "voice",
+   "file": "vo/D3.wav",
+   "start": 12.845,
+   "gain_db": 1.5
+  },
+  {
+   "id": "J3",
+   "role": "voice",
+   "file": "vo/J3.wav",
+   "start": 14.257,
+   "gain_db": 0.9
+  },
+  {
+   "id": "D4",
+   "role": "voice",
+   "file": "vo/D4.wav",
+   "start": 15.91,
+   "gain_db": -0.3
+  },
+  {
+   "id": "D5",
+   "role": "voice",
+   "file": "vo/D5.wav",
+   "start": 17.309,
+   "gain_db": 2.2
+  },
+  {
+   "id": "D6",
+   "role": "voice",
+   "file": "vo/D6.wav",
+   "start": 19.92,
+   "gain_db": 1.1
+  },
+  {
+   "id": "T1",
+   "role": "voice",
+   "file": "vo/T1.wav",
+   "start": 21.585,
+   "gain_db": 0.7
+  },
+  {
+   "id": "T2",
+   "role": "voice",
+   "file": "vo/T2.wav",
+   "start": 24.632,
+   "gain_db": 1.6
+  },
+  {
+   "id": "T3",
+   "role": "voice",
+   "file": "vo/T3_t02_tight.wav",
+   "start": 28.538,
+   "gain_db": 1.9
+  },
+  {
+   "id": "J4",
+   "role": "voice",
+   "file": "vo/J4_t02_tight.wav",
+   "start": 31.383,
+   "gain_db": 2.5
+  },
+  {
+   "id": "T4",
+   "role": "voice",
+   "file": "vo/T4_t02_tight.wav",
+   "start": 34.087,
+   "gain_db": 0.8
+  },
+  {
+   "id": "tension",
+   "role": "music",
+   "file": "music/tension.mp3",
+   "start": 0,
+   "length": 8.1,
+   "gain_db": 10,
+   "fade_in": 0.04,
+   "fade_out": 0.03
+  },
+  {
+   "id": "keynote",
+   "role": "music",
+   "file": "music/keynote_cut.wav",
+   "start": 19.5,
+   "gain_db": -9,
+   "length": 19.67
+  },
+  {
+   "id": "room",
+   "role": "ambience",
+   "file": "sfx/room_tone.mp3",
+   "start": 8.083,
+   "length": 13.042,
+   "loop": true,
+   "gain_db": 12,
+   "fade_out": 0.3
+  },
+  {
+   "id": "room_day",
+   "role": "ambience",
+   "file": "sfx/room_tone.mp3",
+   "start": 21.125,
+   "length": 19.708,
+   "loop": true,
+   "gain_db": 9,
+   "fade_in": 0.2
+  },
+  {
+   "id": "steps_far",
+   "role": "sfx",
+   "file": "sfx/steps_far.mp3",
+   "start": 0.04,
+   "length": 2.9,
+   "gain_db": 12,
+   "fade_out": 0.1,
+   "moment": "the small figure walks across the bridge"
+  },
+  {
+   "id": "steps_close",
+   "role": "sfx",
+   "file": "sfx/steps_close.mp3",
+   "start": 3.0,
+   "length": 2.583,
+   "gain_db": 10,
+   "fade_out": 0.1,
+   "moment": "sneakers pass the camera"
+  },
+  {
+   "id": "light_strip",
+   "role": "sfx",
+   "file": "sfx/light_strip.mp3",
+   "start": 5.242,
+   "at": 5.522,
+   "trim_lead": false,
+   "gain_db": 8,
+   "moment": "the strip starts to glow as he walks into it; its click lands on his eyes"
+  },
+  {
+   "id": "house_lights",
+   "role": "sfx",
+   "file": "sfx/house_lights.mp3",
+   "start": 8.1,
+   "gain_db": 10,
+   "moment": "the lights come up on the first 'no'"
+  },
+  {
+   "id": "zip_whoosh",
+   "role": "sfx",
+   "file": "sfx/zip_whoosh.mp3",
+   "start": 18.309,
+   "gain_db": 2,
+   "moment": "the zip opens, then the jacket leaves him and flies back"
+  },
+  {
+   "id": "catch",
+   "role": "sfx",
+   "file": "sfx/catch.mp3",
+   "start": 19.5,
+   "gain_db": 16,
+   "moment": "the figure behind the glass catches the jacket"
+  },
+  {
+   "id": "fold_snap",
+   "role": "sfx",
+   "file": "sfx/fold_snap.mp3",
+   "start": 28.0833,
+   "gain_db": 5,
+   "moment": "the card shuts like a flip phone"
+  },
+  {
+   "id": "tag_pop_1",
+   "role": "sfx",
+   "file": "sfx/tag_pop.mp3",
+   "start": 28.2083,
+   "gain_db": 8,
+   "moment": "the IT FOLDS tag pops up"
+  },
+  {
+   "id": "tag_pop_2",
+   "role": "sfx",
+   "file": "sfx/tag_pop.mp3",
+   "start": 30.0417,
+   "gain_db": 8,
+   "moment": "the SOLD SEPARATELY tag pops up"
+  },
+  {
+   "id": "stamp",
+   "role": "sfx",
+   "file": "sfx/tag_pop.mp3",
+   "start": 36.875,
+   "gain_db": 9,
+   "moment": "NVIDIA is stamped on the name badge"
+  }
+ ]
+}

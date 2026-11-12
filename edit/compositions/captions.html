@@ -1,0 +1,49 @@
+<template>
+<style>
+#root{position:absolute;inset:0;overflow:hidden;background:#090C0D}
+
+.pup{position:absolute;left:0;top:0;width:0;height:0}
+.pup-in,.pup-head,.pup-face{position:absolute;left:0;top:0;width:0;height:0}
+.pup img{position:absolute;max-width:none;display:block}
+.plate{position:absolute;left:0;top:0;width:854px;height:480px;object-fit:cover}
+
+#root{background:transparent}
+.cap{position:absolute;left:0;top:414px;width:854px;text-align:center;word-spacing:.1em;font-family:'Oswald',sans-serif;font-weight:600;font-size:25px;
+ line-height:34px;letter-spacing:.02em}
+.cap span{display:inline-block;background:rgba(9,12,13,.86);padding:1px 13px 3px;border-radius:3px}
+.cap-D span{color:#FFFFFF;font-style:italic}
+.cap-D b{font-style:normal;font-weight:700;font-size:16px;letter-spacing:.14em;color:#a9bab5;margin-right:11px;position:relative;top:-2px}.cap-J span{color:#B4F03A}.cap-T span{color:#CFE4EE}
+
+</style>
+<div id="root" data-composition-id="captions" data-width="854" data-height="480">
+<div id="cap-00" class="clip cap cap-D" data-start="0.3000" data-duration="1.3200"><span><b>DIRECTOR</b>Cut to an interior.</span></div>
+<div id="cap-01" class="clip cap cap-D" data-start="2.0000" data-duration="2.0500"><span><b>DIRECTOR</b>Camera follows a mysterious figure...</span></div>
+<div id="cap-02" class="clip cap cap-D" data-start="4.4100" data-duration="2.0120"><span><b>DIRECTOR</b>...before revealing our main character.</span></div>
+<div id="cap-03" class="clip cap cap-J" data-start="6.7520" data-duration="1.4200"><span>Hello, and welcome to N-</span></div>
+<div id="cap-04" class="clip cap cap-D" data-start="8.1720" data-duration="1.4480"><span><b>DIRECTOR</b>No, no, no, no, no.</span></div>
+<div id="cap-05" class="clip cap cap-D" data-start="9.7400" data-duration="0.8600"><span><b>DIRECTOR</b>Not you.</span></div>
+<div id="cap-06" class="clip cap cap-J" data-start="10.8500" data-duration="1.8750"><span>Is this about the model?</span></div>
+<div id="cap-07" class="clip cap cap-D" data-start="12.8450" data-duration="1.2740"><span><b>DIRECTOR</b>It's about the model.</span></div>
+<div id="cap-08" class="clip cap cap-J" data-start="14.2570" data-duration="1.4110"><span>The language model?</span></div>
+<div id="cap-09" class="clip cap cap-D" data-start="15.9100" data-duration="0.9420"><span><b>DIRECTOR</b>No.</span></div>
+<div id="cap-10" class="clip cap cap-D" data-start="17.3090" data-duration="1.2450"><span><b>DIRECTOR</b>Jacket.</span></div>
+<div id="cap-11" class="clip cap cap-D" data-start="19.9200" data-duration="1.2050"><span><b>DIRECTOR</b>That's your opener.</span></div>
+<div id="cap-12" class="clip cap cap-T" data-start="21.5850" data-duration="2.8670"><span>Good morning! And welcome to Nvidia.</span></div>
+<div id="cap-13" class="clip cap cap-T" data-start="24.6820" data-duration="1.8500"><span>This is the new RTX.</span></div>
+<div id="cap-14" class="clip cap cap-T" data-start="27.2020" data-duration="1.1270"><span>It folds.</span></div>
+<div id="cap-15" class="clip cap cap-T" data-start="28.5380" data-duration="2.5310"><span>The power cable is sold separately.</span></div>
+<div id="cap-16" class="clip cap cap-J" data-start="31.3830" data-duration="2.5640"><span>Can I have my jacket back?</span></div>
+<div id="cap-17" class="clip cap cap-T" data-start="34.0870" data-duration="2.1540"><span>It's a subscription now.</span></div>
+</div>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+// fromTo that leaves the element alone until its time comes
+const FT = (sel, from, to, at) => tl.fromTo(sel, from, Object.assign({ immediateRender: false }, to), at);
+// a set that lands 4 ms before its frame: rounding can then never push a pose one frame late
+const ST = (sel, props, at) => tl.set(sel, props, Math.max(0, at - 0.004));
+
+window.__timelines["captions"] = tl;
+})();
+</script>
+</template>

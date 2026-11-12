@@ -1,0 +1,29 @@
+{
+ "id": "jensen_surprised",
+ "source": "../../inputs/photos/jensen_huang_20231109.jpg",
+ "crop_in_photo": [
+  376,
+  44,
+  897,
+  696
+ ],
+ "size": [
+  521,
+  652
+ ],
+ "head_height": 537.8,
+ "face_width": 304.0,
+ "neck": [
+  240.0,
+  572.7
+ ],
+ "mouth": [
+  220.7,
+  470.1
+ ],
+ "eyes_y": 319.3,
+ "hair_top": 18,
+ "chin_y": 555.8,
+ "jaw_max_drop": 48.4,
+ "stroke_px": 6
+}

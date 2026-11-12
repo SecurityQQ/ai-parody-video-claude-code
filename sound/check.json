@@ -1,0 +1,55 @@
+{
+ "mix": "mix.wav",
+ "pass": true,
+ "checks": [
+  {
+   "check": "loudness",
+   "pass": true,
+   "value": "-14.2 LUFS",
+   "target": "-14 \u00b11 LUFS (x)",
+   "note": ""
+  },
+  {
+   "check": "true peak",
+   "pass": true,
+   "value": "-3.1 dBTP",
+   "target": "<= -2.6 dBTP",
+   "note": ""
+  },
+  {
+   "check": "length",
+   "pass": true,
+   "value": "40.837 s",
+   "target": "40.8333 s \u00b11 frame",
+   "note": ""
+  },
+  {
+   "check": "voice above music",
+   "pass": true,
+   "value": "13.2 dB in 300 Hz-4 kHz (worst line 21.59-35.94s)",
+   "target": ">= 10.0 dB during every line (WCAG AAA asks 20)",
+   "note": ""
+  },
+  {
+   "check": "sfx on their moments",
+   "pass": true,
+   "value": "10/10 within 1 frame",
+   "target": "<= 42 ms",
+   "note": ""
+  },
+  {
+   "check": "no dead air",
+   "pass": true,
+   "value": "0 unplanned gaps under -60 dBFS",
+   "target": "0 (room tone under everything)",
+   "note": ""
+  },
+  {
+   "check": "mono safe",
+   "pass": true,
+   "value": "mono is 3.1 dB quieter",
+   "target": "<= 6.5 dB",
+   "note": "3 dB = same in both speakers, 6 dB = fully wide, more = phase cancelling: check stereo widening"
+  }
+ ]
+}

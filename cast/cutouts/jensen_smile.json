@@ -1,0 +1,29 @@
+{
+ "id": "jensen_smile",
+ "source": "../../inputs/photos/jen_hsun_huang_2025_2.jpg",
+ "crop_in_photo": [
+  107,
+  34,
+  613,
+  770
+ ],
+ "size": [
+  506,
+  736
+ ],
+ "head_height": 605.4,
+ "face_width": 357.3,
+ "neck": [
+  247.5,
+  645.8
+ ],
+ "mouth": [
+  205.3,
+  523.5
+ ],
+ "eyes_y": 353.8,
+ "hair_top": 21,
+ "chin_y": 626.4,
+ "jaw_max_drop": 54.5,
+ "stroke_px": 7
+}

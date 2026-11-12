@@ -1,0 +1,59 @@
+<template>
+<style>
+#root{position:absolute;inset:0;overflow:hidden;background:#090C0D}
+
+.pup{position:absolute;left:0;top:0;width:0;height:0}
+.pup-in,.pup-head,.pup-face{position:absolute;left:0;top:0;width:0;height:0}
+.pup img{position:absolute;max-width:none;display:block}
+.plate{position:absolute;left:0;top:0;width:854px;height:480px;object-fit:cover}
+
+#end-bg{position:absolute;left:0;top:0;width:854px;height:480px;object-fit:cover}
+#end-badge{position:absolute;left:197px;top:88px;width:460px;height:206px;background:#FBF9F2;border-radius:16px;overflow:hidden;
+ border:3px solid #FBF9F2;font-family:'Oswald',sans-serif;text-align:center}
+#end-hello{background:#C8102E;color:#fff;height:74px;padding-top:6px}
+#end-hello b{display:block;font-size:34px;letter-spacing:.14em;line-height:38px;font-weight:700}
+#end-hello i{display:block;font-style:normal;font-size:16px;letter-spacing:.2em;word-spacing:.3em;line-height:20px;font-weight:600}
+#end-name{color:#090C0D;font-size:48px;font-weight:700;line-height:122px;letter-spacing:.02em;word-spacing:.22em;white-space:nowrap}
+#end-old{position:relative;display:inline-block;color:#8a8f8c}
+#end-strike{position:absolute;left:-4px;right:-4px;top:58px;height:6px;background:#C8102E;border-radius:3px}
+#end-new{display:inline-block;color:#4d7a00}
+#end-parody{position:absolute;left:0;top:326px;width:854px;text-align:center;font-family:'Oswald',sans-serif;font-weight:700;
+ font-size:27px;letter-spacing:.06em;word-spacing:.14em;color:#fff}
+#end-parody span{color:#76B900}
+#end-credits{position:absolute;left:40px;top:400px;width:774px;text-align:center;font-family:'Oswald',sans-serif;font-weight:500;letter-spacing:.03em;
+ font-size:18px;line-height:24px;word-spacing:.2em;color:#dbe3e0}
+
+</style>
+<div id="root" data-composition-id="end" data-width="854" data-height="480">
+
+<img id="end-bg" src="assets/plates/day_dim.jpg" alt="" data-layout-allow-overflow>
+<div id="end-badge"><div id="end-hello"><b>HELLO</b><i>MY NAME IS</i></div>
+<div id="end-name">TIM <span id="end-old">APPLE<span id="end-strike"></span></span> <span id="end-new">NVIDIA</span></div></div>
+<div id="end-parody"><span>PARODY.</span> NOBODY SAID THIS.</div>
+<div id="end-credits" data-layout-allow-caption-zone>Photos: Tessa Bury · Presidential Office, Taiwan · The White House · CC BY</div>
+
+</div>
+<script>
+(function(){
+const tl = gsap.timeline({ paused: true });
+// fromTo that leaves the element alone until its time comes
+const FT = (sel, from, to, at) => tl.fromTo(sel, from, Object.assign({ immediateRender: false }, to), at);
+// a set that lands 4 ms before its frame: rounding can then never push a pose one frame late
+const ST = (sel, props, at) => tl.set(sel, props, Math.max(0, at - 0.004));
+
+gsap.set("#end-badge", {scale: 0.86, rotation: -5});
+gsap.set("#end-strike", {scaleX: 0, transformOrigin: "0% 50%"});
+gsap.set("#end-new", {scale: 0, rotation: -8});
+gsap.set("#end-parody", {y: 14});
+FT("#end-badge", {scale: 0.86, rotation: -5}, {scale: 1, rotation: -2, duration: 0.3, ease: "back.out(1.8)"}, 0);
+FT("#end-strike", {scaleX: 0, transformOrigin: "0% 50%"}, {scaleX: 1, duration: 0.2, ease: "power2.out"}, 0.35);
+FT("#end-new", {scale: 0, rotation: -8}, {scale: 1, rotation: -3, duration: 0.2, ease: "back.out(2.2)"}, 0.5217);
+FT("#end-parody", {y: 14}, {y: 0, duration: 0.3, ease: "power3.out"}, 0.0);
+gsap.set("#end-bg", {scale: 1, transformOrigin: "50% 50%"});
+FT("#end-bg", {scale: 1}, {scale: 1.09, duration: 4.470, ease: "none"}, 0.01);
+FT("#end-badge", {scale: 1, rotation: -2}, {scale: 1.05, rotation: -1, duration: 3.640, ease: "none"}, 0.82);
+
+window.__timelines["end"] = tl;
+})();
+</script>
+</template>

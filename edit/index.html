@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=854, height=480" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 854px; height: 480px; overflow: hidden; background: #090C0D; }
+      #root { position: relative; width: 854px; height: 480px; overflow: hidden; }
+      #sh010, #sh020 { position: absolute; left: 0; top: 0; width: 854px; height: 480px; object-fit: cover; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="40.8333" data-width="854" data-height="480">
+      <video id="sh010" class="clip" src="assets/video/sh010.mp4" data-start="0" data-duration="3.0" data-media-start="0.0" data-track-index="0" muted playsinline style="z-index:1"></video>
+      <video id="sh020" class="clip" src="assets/video/sh020.mp4" data-start="3.0" data-duration="2.5833" data-media-start="0.625" data-track-index="0" muted playsinline style="z-index:2"></video>
+      <div id="s3" data-composition-id="s3" data-composition-src="compositions/s3.html" data-start="5.5833" data-duration="15.5417" data-track-index="1" data-track-kind="graphics" data-width="854" data-height="480" style="z-index:3"></div>
+      <div id="s4" data-composition-id="s4" data-composition-src="compositions/s4.html" data-start="21.125" data-duration="15.2083" data-track-index="1" data-track-kind="graphics" data-width="854" data-height="480" style="z-index:4"></div>
+      <div id="end" data-composition-id="end" data-composition-src="compositions/end.html" data-start="36.3333" data-duration="4.5000" data-track-index="1" data-track-kind="graphics" data-width="854" data-height="480" style="z-index:5"></div>
+      <div id="labels" data-composition-id="labels" data-composition-src="compositions/labels.html" data-start="0" data-duration="40.8333" data-track-index="2" data-track-kind="graphics" data-width="854" data-height="480" style="z-index:6"></div>
+      <div id="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="40.8333" data-track-index="3" data-track-kind="captions" data-width="854" data-height="480" style="z-index:7"></div>
+      <audio id="mix" class="clip" src="assets/audio/mix.wav" data-start="0" data-duration="40.8333" data-track-index="4" data-volume="1"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const main = gsap.timeline({ paused: true });
+      gsap.set("#sh010", { transformOrigin: "24% 30%", scale: 1 });
+      main.fromTo("#sh010", { scale: 1 }, { scale: 1.14, duration: 2.9800, ease: "none", immediateRender: false }, 0.01);
+      window.__timelines["main"] = main;
+    </script>
+  </body>
+</html>

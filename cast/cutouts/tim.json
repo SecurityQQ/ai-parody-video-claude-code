@@ -1,0 +1,29 @@
+{
+ "id": "tim",
+ "source": "_tim_crop.jpg",
+ "crop_in_photo": [
+  164,
+  70,
+  525,
+  561
+ ],
+ "size": [
+  361,
+  491
+ ],
+ "head_height": 399.4,
+ "face_width": 238.2,
+ "neck": [
+  164.7,
+  427.2
+ ],
+ "mouth": [
+  163.1,
+  333.8
+ ],
+ "eyes_y": 217.0,
+ "hair_top": 14,
+ "chin_y": 413.4,
+ "jaw_max_drop": 35.9,
+ "stroke_px": 5
+}

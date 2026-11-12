@@ -1,0 +1,290 @@
+{
+ "fps": 24,
+ "duration": 39.7083,
+ "events": [
+  {
+   "id": "premise_type_on",
+   "time": 0.0,
+   "frame": 0,
+   "time_on_grid": 0.0,
+   "what": "type on screen at frame 0"
+  },
+  {
+   "id": "cut_s2",
+   "time": 3.0,
+   "frame": 72,
+   "time_on_grid": 3.0,
+   "what": "cut to sneakers"
+  },
+  {
+   "id": "cut_s3",
+   "time": 5.5833,
+   "frame": 134,
+   "time_on_grid": 5.5833,
+   "what": "cut to the dark corridor"
+  },
+  {
+   "id": "strip_on_eyes",
+   "time": 6.5417,
+   "frame": 157,
+   "time_on_grid": 6.5417,
+   "what": "green strip crosses his eyes"
+  },
+  {
+   "id": "lights_up",
+   "time": 8.0833,
+   "frame": 194,
+   "time_on_grid": 8.0833,
+   "what": "house lights, music stops, punch in"
+  },
+  {
+   "id": "jensen_cut_off",
+   "time": 8.172,
+   "frame": 196,
+   "time_on_grid": 8.1667,
+   "what": "his line is cut on N-"
+  },
+  {
+   "id": "head_surprised",
+   "time": 8.25,
+   "frame": 198,
+   "time_on_grid": 8.25,
+   "what": "head swaps to the surprised photo"
+  },
+  {
+   "id": "head_smile",
+   "time": 14.1667,
+   "frame": 340,
+   "time_on_grid": 14.1667,
+   "what": "head swaps to the smile"
+  },
+  {
+   "id": "punch_no",
+   "time": 15.875,
+   "frame": 381,
+   "time_on_grid": 15.875,
+   "what": "punch in on the smile for 'No.'"
+  },
+  {
+   "id": "sag",
+   "time": 16.9583,
+   "frame": 407,
+   "time_on_grid": 16.9583,
+   "what": "he sags"
+  },
+  {
+   "id": "wide_jacket",
+   "time": 17.2917,
+   "frame": 415,
+   "time_on_grid": 17.2917,
+   "what": "back to the wide for 'Jacket.'"
+  },
+  {
+   "id": "jacket_off",
+   "time": 18.4167,
+   "frame": 442,
+   "time_on_grid": 18.4167,
+   "what": "jacket leaves him"
+  },
+  {
+   "id": "rack_focus",
+   "time": 18.6667,
+   "frame": 448,
+   "time_on_grid": 18.6667,
+   "what": "focus starts moving to the room behind"
+  },
+  {
+   "id": "catch",
+   "time": 19.5,
+   "frame": 468,
+   "time_on_grid": 19.5,
+   "what": "the jacket is caught; bright music starts"
+  },
+  {
+   "id": "cut_s4",
+   "time": 21.2083,
+   "frame": 509,
+   "time_on_grid": 21.2083,
+   "what": "cut to daylight"
+  },
+  {
+   "id": "wave",
+   "time": 21.7083,
+   "frame": 521,
+   "time_on_grid": 21.7083,
+   "what": "he waves on 'Good morning'"
+  },
+  {
+   "id": "cut_s5",
+   "time": 24.625,
+   "frame": 591,
+   "time_on_grid": 24.625,
+   "what": "punch in, card comes up"
+  },
+  {
+   "id": "fold",
+   "time": 28.1667,
+   "frame": 676,
+   "time_on_grid": 28.1667,
+   "what": "the card folds"
+  },
+  {
+   "id": "tag_1",
+   "time": 28.2917,
+   "frame": 679,
+   "time_on_grid": 28.2917,
+   "what": "IT FOLDS"
+  },
+  {
+   "id": "tag_2",
+   "time": 30.125,
+   "frame": 723,
+   "time_on_grid": 30.125,
+   "what": "POWER CABLE: SOLD SEPARATELY"
+  },
+  {
+   "id": "jensen_in",
+   "time": 31.1667,
+   "frame": 748,
+   "time_on_grid": 31.1667,
+   "what": "Jensen leans in from the left"
+  },
+  {
+   "id": "cut_end",
+   "time": 36.4167,
+   "frame": 874,
+   "time_on_grid": 36.4167,
+   "what": "end card"
+  },
+  {
+   "id": "stamp",
+   "time": 36.9583,
+   "frame": 887,
+   "time_on_grid": 36.9583,
+   "what": "NVIDIA is stamped on the name badge"
+  },
+  {
+   "id": "end",
+   "time": 39.7083,
+   "frame": 953,
+   "time_on_grid": 39.7083,
+   "what": "last frame"
+  }
+ ],
+ "lines": [
+  {
+   "id": "D1",
+   "who": "DIRECTOR (Brian)",
+   "text": "Cut to an interior. Camera follows a mysterious figure... before revealing our main character.",
+   "file": "vo/D1.wav",
+   "start": 0.3,
+   "end": 6.122
+  },
+  {
+   "id": "J1",
+   "who": "JENSEN (Eric)",
+   "text": "Hello, and welcome to N-",
+   "file": "vo/J1.wav",
+   "start": 6.752,
+   "end": 8.172
+  },
+  {
+   "id": "D2",
+   "who": "DIRECTOR (Brian)",
+   "text": "No, no, no, no, no. Not you.",
+   "file": "vo/D2.wav",
+   "start": 8.1,
+   "end": 10.42
+  },
+  {
+   "id": "J2",
+   "who": "JENSEN (Eric)",
+   "text": "Is this about the model?",
+   "file": "vo/J2_t02.wav",
+   "start": 10.85,
+   "end": 12.525
+  },
+  {
+   "id": "D3",
+   "who": "DIRECTOR (Brian)",
+   "text": "It's about the model.",
+   "file": "vo/D3.wav",
+   "start": 12.845,
+   "end": 13.869
+  },
+  {
+   "id": "J3",
+   "who": "JENSEN (Eric)",
+   "text": "The language model?",
+   "file": "vo/J3.wav",
+   "start": 14.257,
+   "end": 15.368
+  },
+  {
+   "id": "D4",
+   "who": "DIRECTOR (Brian)",
+   "text": "No.",
+   "file": "vo/D4.wav",
+   "start": 15.91,
+   "end": 16.402
+  },
+  {
+   "id": "D5",
+   "who": "DIRECTOR (Brian)",
+   "text": "Jacket.",
+   "file": "vo/D5.wav",
+   "start": 17.309,
+   "end": 18.254
+  },
+  {
+   "id": "D6",
+   "who": "DIRECTOR (Brian)",
+   "text": "That's your opener.",
+   "file": "vo/D6.wav",
+   "start": 19.92,
+   "end": 20.949
+  },
+  {
+   "id": "T1",
+   "who": "TIM (Will)",
+   "text": "Good morning! And welcome to Nvidia.",
+   "file": "vo/T1.wav",
+   "start": 21.668,
+   "end": 24.335
+  },
+  {
+   "id": "T2",
+   "who": "TIM (Will)",
+   "text": "This is the new RTX. It folds.",
+   "file": "vo/T2.wav",
+   "start": 24.715,
+   "end": 28.132
+  },
+  {
+   "id": "T3",
+   "who": "TIM (Will)",
+   "text": "The power cable is sold separately.",
+   "file": "vo/T3_t02_tight.wav",
+   "start": 28.622,
+   "end": 31.003
+  },
+  {
+   "id": "J4",
+   "who": "JENSEN (Eric)",
+   "text": "Can I have my jacket back?",
+   "file": "vo/J4_t02_tight.wav",
+   "start": 31.467,
+   "end": 33.831
+  },
+  {
+   "id": "T4",
+   "who": "TIM (Will)",
+   "text": "It's a subscription now.",
+   "file": "vo/T4_t02_tight.wav",
+   "start": 34.171,
+   "end": 36.025
+  }
+ ],
+ "music_grid": "music/beats.json",
+ "note": "'time' is where the sound puts the event; 'time_on_grid' is the nearest 24 fps frame and is what the picture uses. The two differ by at most half a frame (21 ms)."
+}
