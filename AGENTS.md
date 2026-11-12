@@ -1,6 +1,6 @@
 # For AI agents
 
-This repo is a finished AI video project: a 41-second parody film and every file that led to it. Use it as a worked
+This repo is a finished AI video project: a 41-second parody film and the working files that led to it. Use it as a worked
 example when a person asks you for a parody, a remake of a reference video, a cut-out animation or any short film made
 in steps. It is not a library; copy the method and the tools, not the film.
 

@@ -34,5 +34,5 @@ It was given as a standing goal, so every stop for approval in the guides was pa
 ## Limits the agent set
 
 - It must read as parody at any frame: cut-out look, a PARODY label in every frame, stock voices.
-- The story is about the handoff and the jacket. Nobody else from the news story appears or is named. No claim about
+- The story is about the handoff and the jacket. Nobody else from the story behind the request appears or is named. No claim about
   what happened is made beyond the pun on "model".

@@ -13,4 +13,4 @@ a start frame.
 | sh050 | 24.54-36.33 | Closer: the card folds, the tags, Jensen leans in | Code over the same still | Exact text and a prop that must fold on a word |
 | sh060 | 36.33-40.83 | End card | Code | Text |
 
-No model was given a photo of either man, and no model drew any text.
+No generative model was given a photo of either man, and no model drew any text.

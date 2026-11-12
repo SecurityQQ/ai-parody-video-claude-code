@@ -7,7 +7,7 @@ The moodboard turns the reference into lines a frame can be checked against: col
 - Wrote the look in one sentence and every other line as a number: five measured palette colours and one accent, light per shot, a framing table for all shots, a type table: [moodboard.md](moodboard.md).
 - Generated five test stills on two image models, GPT Image 2.6 and Nano Banana 2.1, from the board's lines alone.
 - Measured each still against the board: palette distance (mean ΔE) from 4.8 to 14.8, each under its bar; in the dark corridor 94% of pixels are below half grey, as asked.
-- Kept three stills as the film's background plates: the dark corridor, the daylight corridor and the atrium that starts the first shot.
+- Kept three stills as the film's background plates: the dark corridor, the daylight corridor and the atrium that starts the first shot. They were prompted from the board's lines; the prompts as sent were not kept as separate files.
 - Fixed the motion rule for the edit: figures move on twos (12 poses a second), props on ones.
 
 ## Which files should you open?

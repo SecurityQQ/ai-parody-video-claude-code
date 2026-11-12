@@ -1,5 +1,9 @@
 # Facts
 
+> In this public copy: paths under `renders/`, `review/judge_run*/` (with its `evidence/` and `eyes/`),
+> `refs/apple-opener/`, `refs/style/` and `sound/audition/` point to files kept in the private working project.
+> They are not in this repo.
+
 Only what is listed here may be said or shown. Anything else is [TK] and gets asked.
 
 | Fact | Source |

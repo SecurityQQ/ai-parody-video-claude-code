@@ -4,7 +4,7 @@ The request said "take another funny video and adjust it", so the first step fin
 
 ## What did the agent do in this step?
 
-- Ran 23 searches in 20 logged packs over X, Wikimedia Commons, The Met, the Library of Congress and varg how to. Each pack is logged with its result count and what was kept: [queries.md](queries.md).
+- Ran 23 searches, logged in 20 rows, most of them over X, Wikimedia Commons, The Met and the Library of Congress. Each row has its result count and what was kept: [queries.md](queries.md).
 - Picked Apple's September 2026 keynote opener as the video to adjust and measured it: 20.78 s, four shots, cuts at 3.14, 6.24 and 16.82 s (ffmpeg scene detection), word times with Whisper: [timing.md](timing.md).
 - Measured its palette and light into five colours with hex values, added one accent colour, and wrote a type table: [DESIGN.md](DESIGN.md).
 - Read the replies under the most-liked post about the replacement rumour. "Folding GPUs" had 955 likes and "selling the power cable separately" had 684, so both became lines: [trends.md](trends.md).

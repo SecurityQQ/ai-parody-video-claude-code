@@ -1,5 +1,9 @@
 # Design values
 
+> In this public copy: paths under `renders/`, `review/judge_run*/` (with its `evidence/` and `eyes/`),
+> `refs/apple-opener/`, `refs/style/` and `sound/audition/` point to files kept in the private working project.
+> They are not in this repo.
+
 Each value says where it came from: measured (a script on a file), record (a catalogue entry), by eye, or assumed.
 
 ## Palette, from the reference frames (`palette.py extract --k 6`)

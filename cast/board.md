@@ -12,6 +12,6 @@ How the guide was bent for real people: its sheet, six expressions and identity 
 Here the identity is two photographs, so there is no turnaround sheet and no face-similarity test, and the passports
 describe a paper figure, not a person. The guide's rule "no real person's face is fed to a model" was kept for every generating model: the
 bodies and props were generated from words alone. The photos were touched only by two local models that do not
-generate (background removal and a face mesh), and they leave this machine only as pixels in the film.
+generate (background removal and a face mesh).
 
 Both stops for approval in this step were passed without a person (the request was a standing goal).

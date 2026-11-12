@@ -7,7 +7,7 @@ Sound is locked before any picture exists: the voice lines are recorded, laid on
 - Auditioned six stock ElevenLabs voices, two per role, and picked three by measured pitch and pace: Brian for the director, Eric and Will for the two characters. Nothing was cloned.
 - Recorded 14 lines with `eleven_v3`. Four short lines came back rushed, at 194 to 245 words a minute, so they were re-recorded with written pauses and landed at 129 to 179: [lines.md](lines.md).
 - Generated two music cues: a low pulse that stops dead on the first "No", and a bright cue from the catch to the end, played 1.9% faster so its last bar ends on the end-card cut.
-- Generated eight effects and a room tone, each effect placed on the frame of the action it belongs to.
+- Kept eight effects and a room tone from ten paid calls, each effect placed on the frame of the action it belongs to. The music and effect prompts as sent were not kept; [plan.md](plan.md) describes each sound.
 - Laid everything on one clock with [tools/build_sound.py](../tools/build_sound.py): [cues.json](cues.json) for the mixer and [beats.json](beats.json) for the picture, with every event snapped to the 24 fps grid.
 - Mixed and checked with the skill's `sound.py`: −14.2 LUFS, voice 13.2 dB above the music, 10 of 10 effects within one frame, no dead air. 7 of 7 checks pass: [check.json](check.json).
 - Planned the silences on purpose, for example 0.9 s after the director's "No.": [plan.md](plan.md).

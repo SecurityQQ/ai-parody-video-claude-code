@@ -21,7 +21,4 @@ Read with the X search tool on 2026-11-11. Numbers are as shown at the time of r
 | @JoeySalads: "Foldable GPUs coming soon" | 6 | Same joke as the first |
 | @nothingburger89: "Introducing the Nvidia polishing cloth for $999" | 2 | No: the price is invented |
 
-What the 7-day posts share: a known clip with a new caption, under 20 s, the joke readable with the sound off.
-What none of them did: the handoff itself. Every post is about him, none about the replacement arriving.
-
 Other posts from the same week were read and are left out of this public copy.

@@ -7,11 +7,11 @@ The person stated no hates. Each line is a test a stranger can run on a frame, t
 
 | Reject if | Say it this way in a prompt or a file |
 |---|---|
-| A frame shows either man's face made or changed by an image or video model | Faces are the licensed photos, cut out, unchanged except for the moving jaw |
+| A frame shows either man's face made or changed by an image or video model | Faces are the licensed photos, edited by code only: cut out, a moving jaw, a darkened copy |
 | A frame could pass for news footage or a real keynote with the label cropped off | Paper cut-out figures with a white cut edge in every shot where a face shows |
 | Any frame lacks the PARODY label | The label sits in the same corner from the first frame to the last |
 | Either voice is a clone or an impression aimed at passing for the man | Stock library voices, picked for pace and texture |
-| Anyone else from the news story is shown, named or hinted at by a silhouette | Only three voices exist: the director, Jensen, Tim |
+| Anyone else from the story behind the request is shown, named or hinted at by a silhouette | Only three voices exist: the director, Jensen, Tim |
 | A line states as fact anything about the incident | The only reference is the word "model" and the question "Is this about the model?" |
 | A joke rests on nationality or a country | Jokes come from Apple habits: it folds, cable sold separately, subscription |
 | A company logo appears | The names are spoken and typeset in plain type; no logo, no eye mark, no apple |

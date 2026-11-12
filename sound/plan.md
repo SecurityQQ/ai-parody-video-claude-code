@@ -49,7 +49,7 @@ new takes had their one written pause shortened in the silence (never inside a w
 |---|---|---|---|
 | Tension pulse | `music/tension.mp3` | eleven_music_v2_5, 12 s asked, instrumental | 0.00-8.08, then cut dead |
 | Bright cue | `music/keynote_cut.wav` | eleven_music_v2_5, 20 s asked, instrumental, 112 BPM measured; played 1.9% faster | from the catch at 19.50; its last bar ends on the end-card cut at 36.33 and the tail rings under the badge |
-| 9 effects and a room tone | `sfx/*.mp3` | eleven_sound_effects_v3 | each has its visible moment in `cues.json`; the paper pop is used three times |
+| 8 effects and a room tone | `sfx/*.mp3` | eleven_sound_effects_v3 | each has its visible moment in `cues.json`; the paper pop is used three times |
 
 No melody, voice or artist was named in any prompt.
 

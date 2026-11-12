@@ -8,7 +8,7 @@ The agent that made the film did not grade it. Three separate agents, each with 
 - Fixed them in renders 3 to 5: the card that hung 15 to 20 px above the hand, banding in the dark corridor, small type, one-frame mouth shapes.
 - Round 2 on the fourth render: nothing major, four minor rows, for example music that stopped 263 ms after its cut.
 - Round 3 on the seventh render: thirteen named checks, no measured defect, six minor notes left open on purpose.
-- The maker's own script read every frame of the final film: label on 980 of 980 frames, no black frame, no frozen stretch, −14.2 LUFS, 71 of 71 script words heard by Whisper: [measured_v007.md](measured_v007.md).
+- The maker's own script read every frame of that seventh render: label on 980 of 980 frames, no black frame, no frozen stretch, −14.2 LUFS, 71 of 71 script words heard by Whisper: [measured_v007.md](measured_v007.md).
 - Wrote down what no round checked: nobody listened to the sound, nobody rated whether it is funny, and no law or platform rule was checked: [review.md](review.md).
 - After the rounds, an eighth render corrected the photo credit on the end card. The maker's script measured it; no judge read it again: [measured_v008.md](measured_v008.md).
 

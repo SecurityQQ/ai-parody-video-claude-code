@@ -3,7 +3,7 @@
 # AI parody video made with Claude Code: the full project, 10 steps, $2.12
 
 **A worked example: one request to an AI agent in, a finished 41-second parody film out.**<br>
-The prompts, the script, the voice lines, the edit as code, the AI judges' findings and the bill are in this repo,<br>
+The shot and character prompts, the script, the voice lines, the edit as code, the AI judges' findings and the bill are in this repo,<br>
 so you or your agent can copy the method for your own video.
 
 [![Made with varg skills][b-varg]][skills] [![Claude Code][b-cc]](#make-your-own) [![HyperFrames][b-hf]](edit/README.md) [![Cost: $2.12][b-cost]](#what-did-it-cost) [![MIT license][b-mit]](LICENSE)
@@ -56,7 +56,7 @@ Each step has a folder with a short README, the working files and the skill that
 
 | # | Step | The question it answers | What the agent did here | Skill on varg.ai |
 |---|---|---|---|---|
-| 1 | [References](refs/README.md) | Which existing video do we adjust, and what exactly does it do? | 23 logged searches over X, Wikimedia Commons, The Met and the Library of Congress. Picked Apple's opener and measured it: cuts at 3.14, 6.24 and 16.82 s, palette, word times. Read which jokes people had already liked | [`find-references`](https://varg.ai/how-to/skills/find-references) |
+| 1 | [References](refs/README.md) | Which existing video do we adjust, and what exactly does it do? | 23 logged searches, most of them over X, Wikimedia Commons, The Met and the Library of Congress. Picked Apple's opener and measured it: cuts at 3.14, 6.24 and 16.82 s, palette, word times. Read which jokes people had already liked | [`find-references`](https://varg.ai/how-to/skills/find-references) |
 | 2 | [Moodboard](look/README.md) | What must every frame look like, in numbers? | Five palette colours measured from the reference plus one accent, light and framing per shot, type sizes. Five test stills on two image models, each checked against the palette | [`video-moodboard`](https://varg.ai/how-to/skills/video-moodboard) |
 | 3 | [Sound](sound/README.md) | Who speaks, how fast, and where does the music stop? | Six stock voices auditioned and three picked, 14 lines recorded, 4 re-recorded because the voice model rushed short lines. Two music cues, eight effects and a room tone. The picture is cut to this clock | [`video-sound`](https://varg.ai/how-to/skills/video-sound) |
 | 4 | [Script](story/README.md) | What is said, in how many seconds, and is each claim allowed? | 14 lines, 71 words. Two jokes come from replies that already had 955 and 684 likes; two lines are the reference's own narration. A facts file lists what may be said | [`video-script`](https://varg.ai/how-to/skills/video-script) |
@@ -77,7 +77,7 @@ $2.12, all through one varg account at provider price (1 credit = $0.01). The ag
 | 5 background plates on two models, 1 paper-doll sheet | [GPT Image 2.6](https://varg.ai/models/gpt_image_2_6), [Nano Banana 2.1](https://varg.ai/models/nano_banana_2_1) | 6 | $0.31 |
 | 6 audition lines, 14 lines, 4 re-takes | [ElevenLabs v3](https://varg.ai/models/eleven_v3) | 24 | $0.24 |
 | 2 music cues | [ElevenLabs Music v2.5](https://varg.ai/models/eleven_music_v2_5) | 2 | $0.08 |
-| 8 sound effects and a room tone | [ElevenLabs Sound Effects v3](https://varg.ai/models/eleven_sound_effects_v3) | 10 | $0.10 |
+| 8 sound effects and a room tone kept, from 10 paid calls | [ElevenLabs Sound Effects v3](https://varg.ai/models/eleven_sound_effects_v3) | 10 | $0.10 |
 | 2 video shots, 5 s each at 480p | [Seedance 2.5](https://varg.ai/models/seedance_2_5) | 2 | $1.14 |
 | **Total** | | | **$2.12** |
 
@@ -87,12 +87,12 @@ Free: the three.js blockout, the HyperFrames edit and all eight renders, backgro
 
 The film shows two real, named people, so the agent wrote rules before making anything ([refs/never.md](refs/never.md)) and the judge checked them at the end.
 
-- **Photos, not generated faces.** Both heads are freely licensed photos from Wikimedia Commons (CC BY 4.0, CC BY 2.0, public domain), edited by code only: cut out, the jaw separated so it can move, a darkened copy for the unlit shots. No generative model was given a photo of either man, and nothing generated, redrew or lip-synced a face. Two local models that do not generate touched the photos: one removed the background, one found the lips. Credits: [CREDITS.md](CREDITS.md).
+- **Photos, not generated faces.** Both heads are freely licensed photos from Wikimedia Commons (CC BY 4.0, CC BY 2.0, public domain), edited by code only: cut out, the jaw separated so it can move, a band of teeth drawn behind it, a darkened copy for the unlit shots. No generative model was given a photo of either man, and nothing generated, redrew or lip-synced a face. Two local models that do not generate touched the photos: one removed the background, one found the lips. Credits: [CREDITS.md](CREDITS.md).
 - **Bodies from words.** The paper-doll bodies, the jacket and the card were generated from a text prompt that names nobody ([cast/sheets/prompt.md](cast/sheets/prompt.md)).
 - **Stock voices.** Three library voices picked for pitch and pace. Nothing was cloned and none is meant to sound like either man. Nobody has checked that by ear.
 - **A label on every frame.** PARODY sits in the same corner from the first frame to the last (measured: 980 of 980 frames), and the end card says nobody said this.
 - **It cannot pass for footage.** White cut edges, a head too big for its body, a flat photo over a soft set. The judge's check "would a frame pass as real with the label cropped off" came back no.
-- **It does not say what happened.** The request's "model incident" appears only as the word "model" in four lines of dialogue. The film does not say what the story was, this project did not verify it and repeats none of it, and nobody else is shown or named. The other jokes are about product habits: it folds, the cable is sold separately, it is a subscription now.
+- **It does not say what happened.** The request's "model incident" appears as the opening title ("Nvidia's keynote opener, after the model incident") and as the word "model" in three lines of dialogue. The film does not say what the story was, this project did not verify it and repeats none of it, and nobody else is shown or named. The other jokes are about product habits: it folds, the cable is sold separately, it is a subscription now.
 
 This is what this project did, not legal advice. Likeness and parody rules differ by country and by platform, and nobody checked them here.
 
@@ -142,7 +142,7 @@ The edit is text, so the film can be rendered again or changed line by line. You
 
 ```bash
 git clone https://github.com/SecurityQQ/ai-parody-video-claude-code && cd ai-parody-video-claude-code
-gh release download media-v1 -p media.zip && unzip -o media.zip      # photos, plates, voices, music, the two AI shots (50 MB)
+gh release download media-v1 -p media.zip && unzip -o media.zip      # photos, plates, voices, music, the two AI shots (49 MB)
 git clone https://github.com/vargHQ/skills ../varg-skills              # the sound mixer and the judge live in the skills
 
 python3 tools/build_sound.py                                           # voice lines onto the clock -> sound/cues.json, beats.json

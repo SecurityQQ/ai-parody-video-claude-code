@@ -13,7 +13,7 @@ cut-out people pasted on top.
 Both are in `refs/refs.md`. Neither is given to a generating model.
 
 **Subject lock:** the two men are photo cut-outs: a real head, about 40% of the figure, on a small hand-coloured
-lithograph body. Heads come from `inputs/photos` unchanged. Details per person in `cast/`.
+lithograph body. Heads come from `inputs/photos`, cut out by code and never redrawn. Details per person in `cast/`.
 
 **Light:**
 - Dark corridor (sh030): the figure is a silhouette at 12% brightness until one horizontal strip of yellow-green light
