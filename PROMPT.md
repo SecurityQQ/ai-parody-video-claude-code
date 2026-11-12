@@ -24,7 +24,8 @@ Show me a price estimate before you spend anything.
      --skill edit-footage-with-code --skill media-judge --skill video-project-github
    ```
 2. Connect the models: the varg MCP server `https://mcp.varg.ai/mcp` (OAuth), or `VARG_API_KEY` from [varg.ai](https://varg.ai).
-3. Have ffmpeg, Python 3 and [Bun](https://bun.sh) on the machine. The blockout, the edit and the renders run locally and cost nothing.
+3. Have Node.js (for `npx`), ffmpeg, Python 3 and [Bun](https://bun.sh) on the machine. The blockout, the edit and the renders run locally and cost nothing.
+4. Photos of real people: [Wikimedia Commons](https://commons.wikimedia.org) lists the licence of every photo. This project took only CC BY and public-domain photos and kept their credits ([CREDITS.md](CREDITS.md)).
 
 ## What each line of the prompt does
 

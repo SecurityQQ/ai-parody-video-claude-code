@@ -110,7 +110,7 @@ After round 3 an eighth render corrected the photo credit on the end card; it wa
 
 ## Make your own
 
-1. Install the ten skills in your agent (Claude Code, Codex, Grok, Cursor, Gemini CLI and others):
+1. Install the ten skills in your agent (Claude Code, Codex, Grok, Cursor, Gemini CLI and others). This needs Node.js for `npx`; the blockout, edit and renders also need ffmpeg, Python 3 and [Bun](https://bun.sh):
 
    ```bash
    npx skills add vargHQ/skills --skill find-references --skill video-moodboard --skill video-sound \
@@ -120,7 +120,9 @@ After round 3 an eighth render corrected the photo credit on the end card; it wa
 
 2. Connect the models: add the varg MCP server `https://mcp.varg.ai/mcp` (sign in with OAuth) or set `VARG_API_KEY` from [varg.ai](https://varg.ai). One key covers Seedance, Kling, Veo, GPT Image, Nano Banana and ElevenLabs. A new account starts with free credits, enough for stills but not for a film.
 
-3. Paste a request. The one below is this project's request with the blanks left for you ([PROMPT.md](PROMPT.md) has it with notes):
+3. Find the photos yourself or let the agent search: [Wikimedia Commons](https://commons.wikimedia.org) lists the licence of every photo. This project took only CC BY and public-domain photos and kept their credits.
+
+4. Paste a request. The one below is this project's request with the blanks left for you ([PROMPT.md](PROMPT.md) has it with notes):
 
    ```text
    Make a funny 480p parody video: <who> takes over from <who> because of <what happened>.
