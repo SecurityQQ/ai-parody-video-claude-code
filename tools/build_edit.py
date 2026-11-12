@@ -486,7 +486,7 @@ FT(".jen4-head", {{rotation: 0}}, {{rotation: 9, duration: 0.3, ease: "power2.in
 open("edit/compositions/s4.html", "w").write(scene("s4", s4_css, s4_body, s4_js))
 
 # ---------------------------------------------------------------- end card
-credits = "Photos: Tessa Bury · Presidential Office, Taiwan · The White House · CC BY"
+credits = "Photos (edited): Tessa Bury and Presidential Office, Taiwan, CC BY · The White House"
 end_css = """
 #end-bg{position:absolute;left:0;top:0;width:854px;height:480px;object-fit:cover}
 #end-badge{position:absolute;left:197px;top:88px;width:460px;height:206px;background:#FBF9F2;border-radius:16px;overflow:hidden;

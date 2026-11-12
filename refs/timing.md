@@ -1,5 +1,9 @@
 # Timing
 
+> In this public copy: paths under `renders/`, `review/judge_run*/` (with its `evidence/` and `eyes/`),
+> `refs/apple-opener/`, `refs/style/` and `sound/audition/` point to files kept in the private working project.
+> They are not in this repo.
+
 Source: `apple-opener/apple_opener_2026-09.mp4` (20.78 s). Cuts by `ffmpeg scdet=t=8`. Word starts by Whisper
 small.en (`apple-opener/transcript/transcript.json`); Whisper runs late and long on this clip (it reports 22.36 s for
 a 20.78 s file), so word times are marked "loose": trust them to about half a second. Our film runs at 24 fps.

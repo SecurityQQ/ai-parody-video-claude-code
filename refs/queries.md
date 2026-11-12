@@ -22,7 +22,7 @@ One pack per job. L literal, N named, A adjacent, X excluded. Counts are results
 | motion | L | Commons | `filetype:video cutout animation` | 64 | 0 opened |
 | motion | L | Commons | `filetype:video paper cutout animation` | 58 | 0 opened |
 | motion | N | Refs | `{"query":"keynote opener walk reveal"}` | blocked | - |
-| people (photos) | N | Commons | `Tim Cook portrait`, `filetype:bitmap Jensen Huang`, `Jen-Hsun Huang`, `黃仁勳` | 12 / 15 / 15 / 15 | 4 photos, see inputs/CREDITS.md |
+| people (photos) | N | Commons | `Tim Cook portrait`, `filetype:bitmap Jensen Huang`, `Jen-Hsun Huang`, `黃仁勳` | 12 / 15 / 15 / 15 | 4 photos, see CREDITS.md |
 | the story | L | web search | `Jensen Huang Tim Cook "model" incident Nvidia November 2026` | 9 links | read the summary only; used for the brief, not for any line |
 
 Stopped style after the Met query: two queries in a row before it added nothing, and it returned the look.

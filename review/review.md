@@ -1,11 +1,16 @@
 # Review
 
+> In this public copy: paths under `renders/`, `review/judge_run*/` (with its `evidence/` and `eyes/`),
+> `refs/apple-opener/`, `refs/style/` and `sound/audition/` point to files kept in the private working project.
+> They are not in this repo.
+
 The maker did not judge its own film. Three separate agents, each with a fresh context and only the film, the brief,
 the reference clip and the expected lines, measured it and then opened every flag. Their run folders are
 `judge_run/` (film_v001, with `verdict.md`), `judge_run_v004/` and `judge_run_v007/`. The maker ran the measuring
 tool alone on v003, v005 and v006: those folders hold numbers, not readings.
 
-**Current film: `renders/film_v007.mp4`** (854x480, 24 fps, 980 frames, 40.83 s).
+**Current film: `renders/film_v008.mp4`** (854x480, 24 fps, 980 frames, 40.83 s). It is film_v007, the render the
+last judge read, with one line changed: the photo credit on the end card (see "After the rounds").
 Sound was measured in every round and heard in none.
 
 ## Round 1: film_v001
@@ -75,6 +80,16 @@ Numbers the maker took on v007 (`measured_v007.md`, every frame read) agree: 980
 frames, 0 frozen stretches, -14.2 LUFS, -2.4 dBTP, 71 of 71 script words heard by Whisper. `hyperframes check`:
 0 errors, 3 lint warnings (two scene files over 300 lines; two images share a source), 18 of 18 contrast samples pass.
 
+## After the rounds: film_v008
+
+A fourth reader, checking the project before it was published, found the end card's credit wrong on two counts: it
+put a public-domain photo under "CC BY" and did not say the photos were edited. The line changed from "Photos: Tessa
+Bury · Presidential Office, Taiwan · The White House · CC BY" to "Photos (edited): Tessa Bury and Presidential Office,
+Taiwan, CC BY · The White House". Nothing else in the edit changed. The maker's script read every frame of the new
+render (`measured_v008.md`): 980 of 980 frames carry the tag, 0 black frames, 0 frozen stretches, -14.2 LUFS,
+-2.4 dBTP, 71 of 71 script words heard. The maker looked at the end card: the line sits on one row. No independent
+judge has read film_v008, and the end card now holds 24 words against the tool's line of 18.
+
 ## Tool flags that every round overturned (they will come back on any re-run)
 
 | Flag | Why it is not a defect |
@@ -96,4 +111,4 @@ frames, 0 frozen stretches, -14.2 LUFS, -2.4 dBTP, 71 of 71 script words heard b
 - Whether it is funny.
 - A real upload to X: the banding numbers are simulations at 2048 and 900 kbps. Legibility on a phone.
 - Likeness and parody law, platform policy on parodies of real people, and whether the photo credits satisfy each licence.
-- The guides' stops for a person's approval: all were passed without one, because the request was a /goal.
+- The guides' stops for a person's approval: all were passed without one, because the request was a standing goal.

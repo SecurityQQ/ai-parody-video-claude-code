@@ -1,5 +1,9 @@
 # Sound plan
 
+> In this public copy: paths under `renders/`, `review/judge_run*/` (with its `evidence/` and `eyes/`),
+> `refs/apple-opener/`, `refs/style/` and `sound/audition/` point to files kept in the private working project.
+> They are not in this repo.
+
 The picture is cut to this. Times come from `beats.json` (written by `tools/build_sound.py`); the mix is `mix.wav`,
 built from `cues.json` by the video-sound skill's `sound.py mix`. This file is written by `tools/write_sound_plan.py`.
 

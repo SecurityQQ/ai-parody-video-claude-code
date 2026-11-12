@@ -41,7 +41,7 @@ Times above are the budget at 150 words a minute. The real times come from the r
 ## As cut
 
 The budget above was written at 150 words a minute before any voice existed. The film as cut, from `sound/beats.json`:
-39.7083 s, 72 spoken words, 109 words a minute overall.
+40.8333 s, 71 spoken words plus one cut off at "N-", 104 words a minute overall.
 
 | # | time | lines |
 |---|---|---|
@@ -53,16 +53,21 @@ The budget above was written at 150 words a minute before any voice existed. The
 | 6 | 12.85-13.87 | D3 |
 | 7 | 14.26-15.37 | J3 |
 | 8 | 15.88-18.25 | D4, D5 |
-| 9 | 18.42-21.21 | D6 |
-| 10 | 21.21-24.62 | T1 |
-| 11 | 24.62-31.17 | T2, T3 |
-| 12 | 31.17-36.42 | J4, T4 |
-| 13 | 36.42-39.71 | - |
+| 9 | 18.42-21.13 | D6 |
+| 10 | 21.13-24.54 | T1 |
+| 11 | 24.54-31.08 | T2, T3 |
+| 12 | 31.08-36.33 | J4, T4 |
+| 13 | 36.33-40.83 | - |
 
-Changes from the table above, all made in the edit and none in the words: the end card's small print became one credit
-line ("Photos (edited): Tessa Bury · Presidential Office, Taiwan · The White House · CC BY"); the lower third under
-Tim reads NEW OPENER; four lines were re-recorded slower with a written pause ("Is this... about the model?").
+Changes from the table above, all made in the edit and none in the words: the end card reads "PARODY. NOBODY SAID
+THIS." and holds 4.5 s; its small print is one credit line ("Photos (edited): Tessa Bury and Presidential Office,
+Taiwan, CC BY · The White House"); the lower third under Tim reads NEW OPENER; four lines were re-recorded slower
+with a written pause ("Is this... about the model?").
+
+Two of the director's lines are Apple's narration from the reference, kept word for word because the parody rests on
+them: "Cut to an interior. Camera follows a mysterious figure... before revealing our main character." and "That's
+your opener."
 
 Checker on this file: 0 fail, 2 warn (the hook warning: the first spoken beat ends after 3 s, but the premise is in
-type from frame 0; and the end card's reading time, which the cut extends to 3.3 s).
-The stop for approval before any voice or picture was passed without a person (the request was a /goal).
+type from frame 0; and the end card's reading time, which the cut extends to 4.5 s).
+The stop for approval before any voice or picture was passed without a person (the request was a standing goal).

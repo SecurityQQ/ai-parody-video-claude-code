@@ -32,9 +32,9 @@ shoulders drooping, sleeves hanging past the hands.
 ```voice
 Stock voice "Will" (ElevenLabs library), not a clone and not an impression. Median pitch 114 Hz. Pace: measured,
 with a pause before the price. Measured: "Good morning! And welcome to Nvidia." 135 words a minute (target 135);
-"This is the new R-T-X. It folds." 123 (target 135, within 15%); "The power cable... is sold separately." 141
-(target 150, within 15%); "It's a subscription... now." 116, below its 150 target on purpose: a written pause of
-0.58 s before "now". Verbal habit: greets first, sells second. Default emotion: pleased.
+"This is the new R-T-X. It folds." 123 (target 135, within 15%); "The power cable... is sold separately." 151
+(target 150) after its pause was shortened to 0.36 s; "It's a subscription... now." 129, below its 150 target on
+purpose: a written pause before "now", shortened from 0.58 s to 0.36 s. Verbal habit: greets first, sells second. Default emotion: pleased.
 ```
 
 Checked by eye on stills: the head reads at 480p from the wide shot (about 75 px tall there) and from the medium.

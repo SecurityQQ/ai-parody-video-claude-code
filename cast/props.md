@@ -22,8 +22,8 @@ as a hand-coloured lithograph, off-white cut edge. Unbranded, no logos, no numbe
 ```
 
 ```motion
-Rigid until the word "folds": then the lower half shuts onto the upper half in three frames with one sharp click, and
-the half that is left dips 5 px and comes back. It never opens again.
+Rigid until the word "folds": then the lower half shuts onto the upper half across four frames with one sharp click (its
+back shows), and the shut card drops into his hand. It never opens again.
 ```
 
 File pieces: `cutouts/prop_jacket.png`, `cutouts/prop_card.png` (split into a top and a bottom half by `tools/build_edit.py`).

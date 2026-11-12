@@ -1,5 +1,9 @@
 # sh020: the sneakers
 
+> In this public copy: paths under `renders/`, `review/judge_run*/` (with its `evidence/` and `eyes/`),
+> `refs/apple-opener/`, `refs/style/` and `sound/audition/` point to files kept in the private working project.
+> They are not in this repo.
+
 approved: sh020_t01.mp4
 media_start: 0.625
 

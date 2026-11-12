@@ -12,7 +12,7 @@ credentials.*
 .npmrc
 .netrc
 
-# Media is not stored in git. tools/repo.py lists it by hash in media.lock.jsonl and stores the bytes in Releases.
+# Media is not stored in git. It is one zip on the media-v1 release: gh release download media-v1 -p media.zip
 *.mp4
 *.MP4
 *.mov

@@ -1,5 +1,9 @@
 # Blockout report
 
+> In this public copy: paths under `renders/`, `review/judge_run*/` (with its `evidence/` and `eyes/`),
+> `refs/apple-opener/`, `refs/style/` and `sound/audition/` point to files kept in the private working project.
+> They are not in this repo.
+
 The whole film blocked once in world time (metres, 24 fps), each shot a camera on it. Three.js through the
 code-to-video-previz skill; the scene is data (`staging.json`, written by `make_staging.py` from `../sound/beats.json`).
 
@@ -46,4 +50,4 @@ One camera idea that was not asked for: s3c, the 85 mm close-up on the beat afte
   has him near full height), and in s5 the old opener leans in lower than the blockout's standing figure.
 
 Which parts need a person: play `renders/blockout_v005.mp4` once for the rhythm of the cuts. Stills cannot show it.
-The stop for notes before rendering was passed without a person (the request was a /goal).
+The stop for notes before rendering was passed without a person (the request was a standing goal).

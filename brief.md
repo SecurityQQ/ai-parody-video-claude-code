@@ -20,14 +20,15 @@ It was given as a standing goal, so every stop for approval in the guides was pa
 
 ## How the agent read it (inferred, not said)
 
-- "the model incident": a news story about Jensen Huang from the week of 2026-11-08 and the pun on "model" that X
-  made of it. On 2026-11-11 Polymarket posted that Tim Cook "is reportedly being floated as a potential replacement"
-  (9,036 likes when read).
+- "the model incident": the request's phrase for a story that was going round X in the week of 2026-11-08, and the
+  pun on "model" made of it. The agent read a search summary only, did not verify the story and used none of it in
+  the film. A Polymarket post of 2026-11-11 said Tim Cook "is reportedly being floated as a potential replacement"
+  (9,036 likes when read): an unverified claim, used as the premise of a joke and not as news.
 - "another funny video": Apple's September 2026 keynote opener, where Tim Cook says "No, no, no, no, no. Not me.
   That's your guy." and hands the opening to John Ternus (x.com/aaronp613/status/2097785879041351803, 11,562 likes).
   This film is that opener, flipped: Nvidia's opener, and the director hands it from Jensen Huang to Tim Cook.
 - "take their pictures": their real photos, freely licensed, as paper cut-outs (see [CREDITS.md](CREDITS.md)). No
-  photo of either man is fed to an image or video model, and neither voice is cloned.
+  photo of either man is given to a generative model, and neither voice is cloned.
 - 480p: 854x480, 24 fps, 16:9.
 
 ## Limits the agent set

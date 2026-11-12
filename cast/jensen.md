@@ -33,8 +33,8 @@ palms open. After the jacket is taken: the same body in the black T-shirt, arms 
 ```voice
 Stock voice "Eric" (ElevenLabs library), not a clone and not an impression. Median pitch 143 Hz, the highest of the
 three. Pace: quick when confident, hesitant when asking. Measured: "Is this... about the model?" 179 words a minute
-(target 190, within 15%); "The language model?" 162 (target 170, within 15%); "Can I... have my jacket back?" 134,
-below its 190 target on purpose: a written pause of 0.63 s. Verbal habit: questions. Default emotion: hopeful.
+(target 190, within 15%); "The language model?" 162 (target 170, within 15%); "Can I... have my jacket back?" 152,
+below its 190 target on purpose: a written pause, shortened from 0.63 s to 0.30 s. Verbal habit: questions. Default emotion: hopeful.
 ```
 
 Checked by eye on stills: both heads read as the same man at 480p; the two photos differ in angle (three-quarter and

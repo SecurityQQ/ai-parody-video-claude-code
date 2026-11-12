@@ -1,5 +1,9 @@
 # References
 
+> In this public copy: paths under `renders/`, `review/judge_run*/` (with its `evidence/` and `eyes/`),
+> `refs/apple-opener/`, `refs/style/` and `sound/audition/` point to files kept in the private working project.
+> They are not in this repo.
+
 Route used: the person named the method ("take another funny video and adjust it"), so one clip is the primary
 reference and everything else has one small job. Order of care for this piece (coded cut-outs over generated plates):
 timing, framing, palette, type; light only where a plate has it.
@@ -20,7 +24,8 @@ Every reference below was opened. Numbers are copied from the source or measured
 - One job: structure and timing.
 - Must not copy: Apple's footage, its building, its logo, its music, John Ternus. Our film re-stages the beats in a
   different place with different people and a reversed joke (the director says "Not you").
-- Rights: look only. Not fed to any model, not shown in the film.
+- Rights: look only. A video-analysis model watched it once to describe it; it was not given to any generating
+  model and is not shown in the film. Two of its narrator's lines are quoted in the script.
 - Provenance: HUMAN-PROVEN (a broadcast company film, named speakers).
 - Found by: X search `"Tim Cook" (parody OR keynote OR "good morning" OR introducing) filter:videos min_faves:3000 since:2026-06-01`, rank 1 of 1.
 
@@ -70,4 +75,4 @@ Provenance: HUMAN-PROVEN (holding museum, dated about 1875).
   texture, type, motion and music have no candidate sets: the primary reference fixes them.
 
 Not in this public copy: the reference clip and its frames (`apple-opener/`), the three museum scans (`style/`) and
-two trend cards (R14, R15) about clips of the man himself. The links above lead to the sources.
+two trend cards (R14, R15). The links above lead to the sources.

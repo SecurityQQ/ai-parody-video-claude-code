@@ -2,7 +2,7 @@
 
 Before anything is animated or generated, the whole film is staged once as grey boxes in a 3D scene, in real metres and on the sound's clock. It settles where everyone stands, where the camera is and what lens it has, for free.
 
-## What the agent did
+## What did the agent do in this step?
 
 - Staged three sets and one camera per shot in three.js. The scene is data: [make_staging.py](make_staging.py) writes [staging.json](staging.json) from the sound clock.
 - Gave every shot a height, a lens and a move, for example the sneaker shot: 14 cm above the floor, 35 mm, tracking at 0.82 of the walker's speed: [REPORT.md](REPORT.md).
@@ -10,7 +10,7 @@ Before anything is animated or generated, the whole film is staged once as grey 
 - Rendered five rounds and looked at contact sheets of four. A round renders about 870 frames in 15 to 23 s.
 - Rendered one grey guide clip of the tracking shot and gave it to the video model as a video reference in the next step.
 
-## Files to open
+## Which files should you open?
 
 | File | What it holds |
 |---|---|
@@ -22,7 +22,7 @@ Before anything is animated or generated, the whole film is staged once as grey 
 
 Contact sheets are in `media.zip` under `blockout/stills/`.
 
-## The skill
+## Which skill ran this step?
 
 [`code-to-video-previz`](https://varg.ai/how-to/skills/code-to-video-previz) on varg how to. Install it in Claude Code, Codex, Grok, Cursor or Gemini CLI:
 
@@ -30,6 +30,6 @@ Contact sheets are in `media.zip` under `blockout/stills/`.
 npx skills add vargHQ/skills --skill code-to-video-previz
 ```
 
-This film is a parody made by an AI agent; nobody shown said any of its lines. [Watch it](https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_12b7a91f86db.mp4) · [the whole project](../README.md)
+This film is a parody made by an AI agent; nobody shown said any of its lines. [Watch it](https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_adb09f98b297.mp4) · [the whole project](../README.md)
 
 Previous: [5. Characters](../cast/README.md) · Next: [7. Video generation](../shots/README.md) · [All ten steps](../README.md#the-10-steps)

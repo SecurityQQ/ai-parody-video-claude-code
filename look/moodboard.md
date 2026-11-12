@@ -1,12 +1,16 @@
 # Moodboard
 
+> In this public copy: paths under `renders/`, `review/judge_run*/` (with its `evidence/` and `eyes/`),
+> `refs/apple-opener/`, `refs/style/` and `sound/audition/` point to files kept in the private working project.
+> They are not in this repo.
+
 Every line is something a frame can be checked against. Numbers come from `refs/DESIGN.md` (measured on the reference).
 
 **Look:** a product-launch film interior shot on a large-format digital camera, cool teal-grey, with 1875-style photo
 cut-out people pasted on top.
 
 **References:** R01 the Apple opener (structure, framing, palette), R06-R08 the Chabalgoity photo collages (the figures).
-Both are in `refs/refs.md`. Neither is fed to a model.
+Both are in `refs/refs.md`. Neither is given to a generating model.
 
 **Subject lock:** the two men are photo cut-outs: a real head, about 40% of the figure, on a small hand-coloured
 lithograph body. Heads come from `inputs/photos` unchanged. Details per person in `cast/`.
@@ -30,11 +34,11 @@ one accent #76B900 (the light strip, the PARODY tag, Jensen's captions). Nothing
 | sh040 | wide | 1.5 m, locked | 28 mm | figure on the right third, about 60% of frame height |
 | sh050 | medium | same axis, 1.5x | 40 mm | head in the upper right third, card beside it |
 
-**Texture:** the plates keep the image model's fine grain and slight softness; no extra grain is added (480p already
-softens them). The cut-outs have a 2-3 px off-white cut edge. No drop shadows.
+**Texture:** the plates keep the image model's slight softness. Fine grain is baked into the dark plates and the
+end-card plate: without it the judge measured banding in the first render. The cut-outs have a 2-3 px off-white cut edge. No drop shadows.
 
 **Motion:** one camera idea per shot (locked, track, push, punch, focus pull, locked, punch). Figures move on twos
-(12 poses a second); props on ones. Shot lengths 3.0 / 2.6 / about 15 (broken by two punch-ins) / 3.4 / 9.8 / 3.5 s.
+(12 poses a second); props on ones. Shot lengths 3.0 / 2.6 / 15.5 (broken by two punch-ins) / 3.4 / 11.8 / 4.5 s.
 Motion reference: `refs/apple-opener/apple_opener_2026-09.mp4`.
 
 **Type (set in code, never by a model):** Oswald. Premise 25 px / 700 / white and #76B900 on a #090C0D bar, top.
@@ -61,4 +65,4 @@ prompt; text drawn by a model; a logo; perfect symmetry in a plate; centred text
 Measured with `palette.py check --ref <reference frame>` and `frame_light.py`. Not checked: a second agent as critic
 (skipped), and the daylight plate's light direction, which measures "even" where the board asks for camera-left: the
 window wall is on the left, the brightness is not. It was kept because nothing in the shot depends on a shadow.
-The stop for approval before any video was passed without a person (the request was a /goal).
+The stop for approval before any video was passed without a person (the request was a standing goal).

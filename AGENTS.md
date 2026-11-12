@@ -14,9 +14,10 @@ in steps. It is not a library; copy the method and the tools, not the film.
 
 ## How to make a video like this for someone
 
-- Install the skills: `npx skills add vargHQ/skills`, or read https://raw.githubusercontent.com/vargHQ/skills/main/llms.txt.
-  One skill per step: find-references, video-moodboard, video-sound, video-script, character-passport,
-  code-to-video-previz, video-animate, edit-footage-with-code, media-judge, video-project-github.
+- Install only the skills you need, one per step: `npx skills add vargHQ/skills --skill find-references --skill
+  video-moodboard --skill video-sound --skill video-script --skill character-passport --skill code-to-video-previz
+  --skill video-animate --skill edit-footage-with-code --skill media-judge --skill video-project-github`, or read
+  https://raw.githubusercontent.com/vargHQ/skills/main/llms.txt and pick by task.
 - Generate through varg: the MCP server `https://mcp.varg.ai/mcp` (OAuth) or `VARG_API_KEY` against
   `https://api.varg.ai/v2`. Model ids and inputs: https://varg.ai/models/llms.txt. Search formats and skills by task:
   https://varg.ai/how-to/api/search?q=<the request>.
@@ -31,8 +32,8 @@ in steps. It is not a library; copy the method and the tools, not the film.
 
 ## Rules this project kept, and you should keep
 
-- A real person's face is a licensed photo, credited, cut out by code. Never send it to an image or video model, and
-  never generate, edit, swap or lip-sync a real face.
+- A real person's face is a licensed photo, credited, edited by code only. Never give it to a generative image or
+  video model, and never generate, redraw, swap or lip-sync a real face.
 - No cloned voices and no impressions meant to pass for the person.
 - A PARODY label in every frame, set in code, and an end card that says nobody said this.
 - No statement of fact about a real person that you cannot source. Keep a facts file (`story/facts.md`).

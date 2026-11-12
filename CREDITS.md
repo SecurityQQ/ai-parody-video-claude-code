@@ -12,14 +12,16 @@ The licence covers the photographer's copyright only, not the right of the perso
 | `inputs/photos/tim_cook_march_2026.jpg` | same photo, uncropped (spare) | Tessa Bury | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 2026-03-13 | https://commons.wikimedia.org/wiki/File:Tim_Cook_March_2026.jpg |
 | `inputs/photos/tim_cook_march_2026_cropped.jpg` | Tim Cook head and waving hand | Tessa Bury | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 2026-03-13 | https://commons.wikimedia.org/wiki/File:Tim_Cook_March_2026_(cropped).jpg |
 
-Changes made: background removed, cropped at the neck, lower jaw cut so it can move, edge outline added. The cut-out
+Changes made: background removed, cropped at the neck, lower jaw cut so it can move, a band of teeth drawn behind it,
+edge outline added, a darkened copy made for the unlit shots. The film's end card credits the photos as edited. The cut-out
 heads in `cast/cutouts/` are adaptations of these photos and carry the same credits.
 Not used: any CC BY-SA photo (share-alike would bind the film), any photo with no licence record.
 
 ## References (looked at, not copied)
 
-- Apple's September 2026 keynote opener: structure and timing only. Its footage, sound and frames are not in the film
-  and not in this repo. The clip the agent measured: https://x.com/aaronp613/status/2097785879041351803
+- Apple's September 2026 keynote opener: structure, timing and two of its narrator's lines, quoted for parody ("Cut
+  to an interior. Camera follows a mysterious figure... before revealing our main character." and "That's your
+  opener."). Its footage, sound and frames are not in the film and not in this repo. The clip the agent measured: https://x.com/aaronp613/status/2097785879041351803
 - Juan Pedro Chabalgoity, photo collages, about 1875, The Metropolitan Museum of Art (public domain, Open Access):
   the idea of a large photographed head on a small printed body. Object numbers 764771, 764769, 764776.
 - Jokes that people had already liked under a post on X: "folding GPUs" (@viperr), "selling the power cable
@@ -35,10 +37,11 @@ Not used: any CC BY-SA photo (share-alike would bind the film), any photo with n
 
 - Video: Seedance 2.5 at 480p (two shots). Images: GPT Image 2.6 and Nano Banana 2.1. All through [varg](https://varg.ai).
 - Edit and render: [HyperFrames](https://github.com/heygen-com/hyperframes) 0.9.15, GSAP 3.15.0, ffmpeg.
-- Blockout: three.js. Head cut-outs: MediaPipe face mesh 0.10.14. Checks: Whisper small.en, ffmpeg ebur128.
+- Blockout: three.js. Head cut-outs: local background removal and MediaPipe face mesh 0.10.14. Checks: Whisper small.en,
+  ffmpeg ebur128. Watching the reference clips: varg `analyze_video`.
 - Skills: [vargHQ/skills](https://github.com/vargHQ/skills). Agent: Claude Code (Claude Fable 5.2).
 
 ## Licence
 
 Code and text in this repo: MIT ([LICENSE](LICENSE)). The photos keep the licences above. The film and the generated
-media: watch, link and embed with a credit to this repo; ask before other uses.
+media: watch, link and embed with a credit to this repo; open an issue here to ask about other uses.
