@@ -20,7 +20,7 @@ so you or your agent can copy the method for your own video.
 
 ## What is this?
 
-"Not you." is a 40.8-second parody video at 854×480. A film director re-casts Nvidia's keynote opener on camera: he stops Jensen Huang in the first ten seconds, takes the leather jacket and hands the show to Tim Cook, who presents a graphics card that folds. It re-stages Apple's September 2026 keynote opener with the handoff flipped.
+"Not you." is a 40.8-second parody video at 854×480. A film director re-casts Nvidia's keynote opener on camera: he stops Jensen Huang in the first ten seconds, takes the leather jacket and hands the show to Tim Cook, who presents a graphics card that folds. The video it adjusts is Apple's September 2026 keynote opener, in which Tim Cook hands the opening to someone else; here the handoff is flipped and the keynote is Nvidia's.
 
 An AI agent made it on 2026-11-11 from one request: Claude Code running Claude Fable 5.2, with ten open-source [varg video skills][skills] and the image, voice, music and video models behind one [varg](https://varg.ai) account. This repo is the project as the agent left it, cleaned for publishing: references, moodboard, script, sound plan, character sheets, 3D blockout, shot prompts, the edit as a [HyperFrames](https://github.com/heygen-com/hyperframes) project, and the judge's measured reports.
 
@@ -69,7 +69,7 @@ Each step has a folder with a short README, the working files and the skill that
 
 ## What did it cost?
 
-$2.12, all through one varg account at provider price (1 credit = $0.01). The agent set itself a $15 cap and asked for a price estimate before every paid call.
+$2.12, all through one varg account at provider price (1 credit = $0.01). The agent set itself a $15 cap and asked for a price estimate before every paid call. The figure is the model calls only: the agent's own usage (Claude Code) is not in it.
 
 | What | Model | Calls | Cost |
 |---|---|---|---|
@@ -173,7 +173,7 @@ Yes. Here it wrote the script, generated the voices, music, images and two video
 
 ### How much does an AI video like this cost?
 
-This one cost $2.12 in model calls for 40.8 seconds at 480p. The two AI video shots were $1.14 of that; everything coded was free to render. Higher resolutions and more AI shots cost more, so the agent asks for an estimate before each call.
+This one cost $2.12 in model calls for 40.8 seconds at 480p, not counting the agent's own usage (Claude Code). The two AI video shots were $1.14 of that; everything coded was free to render. Higher resolutions and more AI shots cost more, so the agent asks for an estimate before each call.
 
 ### Which AI models were used?
 

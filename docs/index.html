@@ -218,7 +218,7 @@
      "name": "How much does an AI video like this cost?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "This one cost $2.12 in model calls for 40.8 seconds at 480p. The two AI video shots were $1.14 of that; everything coded was free to render. Higher resolutions and more AI shots cost more, so the agent asks for an estimate before each call."
+      "text": "This one cost $2.12 in model calls for 40.8 seconds at 480p, not counting the agent's own usage (Claude Code). The two AI video shots were $1.14 of that; everything coded was free to render. Higher resolutions and more AI shots cost more, so the agent asks for an estimate before each call."
      }
     },
     {
@@ -396,7 +396,7 @@ footer p{margin:0 0 6px}
 
 <section id="what-is-this">
 <h2>What is this?</h2>
-<p>"Not you." is a 40.8-second parody video at 854×480. A film director re-casts Nvidia's keynote opener on camera: he stops Jensen Huang in the first ten seconds, takes the leather jacket and hands the show to Tim Cook, who presents a graphics card that folds. It re-stages Apple's September 2026 keynote opener with the handoff flipped.</p>
+<p>"Not you." is a 40.8-second parody video at 854×480. A film director re-casts Nvidia's keynote opener on camera: he stops Jensen Huang in the first ten seconds, takes the leather jacket and hands the show to Tim Cook, who presents a graphics card that folds. The video it adjusts is Apple's September 2026 keynote opener, in which Tim Cook hands the opening to someone else; here the handoff is flipped and the keynote is Nvidia's.</p>
 <p>An AI agent made it on 2026-11-11 from one request: Claude Code running Claude Fable 5.2, with ten open-source <a href="https://github.com/vargHQ/skills">varg video skills</a> and the image, voice, music and video models behind one <a href="https://varg.ai">varg</a> account. The repo is the project as the agent left it, cleaned for publishing: references, moodboard, script, sound plan, character sheets, 3D blockout, shot prompts, the edit as a <a href="https://github.com/heygen-com/hyperframes">HyperFrames</a> project, and the judge's measured reports.</p>
 <div class="scroll"><table>
 <tbody>
@@ -439,7 +439,7 @@ footer p{margin:0 0 6px}
 
 <section id="what-did-it-cost">
 <h2>What did it cost?</h2>
-<p>$2.12, all through one varg account at provider price (1 credit = $0.01). The agent set itself a $15 cap and asked for a price estimate before every paid call.</p>
+<p>$2.12, all through one varg account at provider price (1 credit = $0.01). The agent set itself a $15 cap and asked for a price estimate before every paid call. The figure is the model calls only: the agent's own usage (Claude Code) is not in it.</p>
 <div class="scroll"><table>
 <thead><tr><th>What</th><th>Model</th><th>Calls</th><th>Cost</th></tr></thead>
 <tbody>
@@ -518,7 +518,7 @@ python3 tools/measure_film.py renders/film.mp4                         # size, l
 <h3 id="can-claude-code-make-a-video">Can Claude Code make a video?</h3>
 <p>Yes. Here it wrote the script, generated the voices, music, images and two video shots through varg, animated the rest as HTML and GSAP in HyperFrames, rendered the MP4 with ffmpeg and had other agents judge the result. Claude Code does not generate pixels itself: it writes code and calls models. The skills tell it which to use for what.</p>
 <h3 id="how-much-does-an-ai-video-like-this-cost">How much does an AI video like this cost?</h3>
-<p>This one cost $2.12 in model calls for 40.8 seconds at 480p. The two AI video shots were $1.14 of that; everything coded was free to render. Higher resolutions and more AI shots cost more, so the agent asks for an estimate before each call.</p>
+<p>This one cost $2.12 in model calls for 40.8 seconds at 480p, not counting the agent's own usage (Claude Code). The two AI video shots were $1.14 of that; everything coded was free to render. Higher resolutions and more AI shots cost more, so the agent asks for an estimate before each call.</p>
 <h3 id="which-ai-models-were-used">Which AI models were used?</h3>
 <p>Seedance 2.5 for two video shots, GPT Image 2.6 and Nano Banana 2.1 for background plates and the paper-doll sheet, ElevenLabs v3 for voices, ElevenLabs Music v2.5 for two cues and ElevenLabs Sound Effects v3 for eight effects and a room tone, all through <a href="https://varg.ai">varg</a>. A video-understanding model (varg <code>analyze_video</code>) watched the reference clips. Whisper, a background-removal model and a face mesh model ran locally, for checks and for cutting the heads.</p>
 <h3 id="how-do-you-make-a-parody-of-a-real-person-with-ai-without-making-a-deepfake">How do you make a parody of a real person with AI without making a deepfake?</h3>
