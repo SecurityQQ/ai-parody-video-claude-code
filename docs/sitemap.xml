@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://securityqq.github.io/ai-parody-video-claude-code/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_fab5877b5a63.jpg</video:thumbnail_loc>
+      <video:title>Not you. An AI parody video made with Claude Code</video:title>
+      <video:description>A 41-second parody film made by an AI agent from one request, in ten steps, for $2.12 in model calls. Parody: nobody shown said any of these lines.</video:description>
+      <video:content_loc>https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_adb09f98b297.mp4</video:content_loc>
+      <video:duration>41</video:duration>
+      <video:publication_date>2026-11-12</video:publication_date>
+    </video:video>
+  </url>
+</urlset>

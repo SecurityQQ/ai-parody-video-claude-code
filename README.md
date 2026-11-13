@@ -10,7 +10,7 @@ so you or your agent can copy the method for your own video.
 
 <a href="https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_adb09f98b297.mp4"><img src="https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_523fd8925738.webp" width="640" alt="Animated preview of the AI parody video Not you: a paper cut-out of Jensen Huang is lit by a strip of green light in a dark corridor, a director says Not you, his leather jacket flies to Tim Cook, who shows a graphics card with tags reading It folds and Power cable sold separately, and a name badge reads Tim Nvidia. A PARODY label is in the corner of every frame."></a>
 
-**[▶ Watch the film (MP4, 41 s, with sound)](https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_adb09f98b297.mp4)**
+**[▶ Watch the film (MP4, 41 s, with sound)](https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_adb09f98b297.mp4)** · **[Read this as a web page](https://securityqq.github.io/ai-parody-video-claude-code/)**
 
 [The request](#the-request) · [The 10 steps](#the-10-steps) · [Cost](#what-did-it-cost) · [Real people](#how-were-the-real-people-handled) · [The AI judge](#what-did-the-ai-judge-find) · [Make your own](#make-your-own) · [Rebuild](#rebuild-the-film) · [For AI agents](#for-ai-agents) · [FAQ](#faq)
 

@@ -14,6 +14,7 @@ Licence: code and text MIT. The photos keep their own licences (CREDITS.md). The
 - [PROMPT.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/PROMPT.md): the paste-in request, line by line
 - [brief.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/brief.md): the original request and how the agent read it
 - [The film (MP4)](https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_adb09f98b297.mp4): 40.8 s, 854x480, 24 fps
+- [Project page](https://securityqq.github.io/ai-parody-video-claude-code/): the same guide as one web page, with the film
 
 ## The ten steps
 

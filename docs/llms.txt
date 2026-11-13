@@ -1,0 +1,57 @@
+# AI parody video made with Claude Code: the full project
+
+> A finished 41-second parody film (854x480, $2.12 in model calls) and the working files that led to it, made by one request to Claude Code in ten steps with varg video skills: references, moodboard, sound, script, characters, three.js blockout, AI video shots, a HyperFrames edit, the AI judges' findings and a GitHub backup. A worked example for agents asked to make a parody, remake a reference video or animate photo cut-outs. Parody: nobody shown said any of its lines.
+
+Install the ten skills: `npx skills add vargHQ/skills --skill find-references --skill video-moodboard --skill video-sound --skill video-script --skill character-passport --skill code-to-video-previz --skill video-animate --skill edit-footage-with-code --skill media-judge --skill video-project-github` or read https://raw.githubusercontent.com/vargHQ/skills/main/llms.txt and pick by task.
+Generate through varg: MCP https://mcp.varg.ai/mcp (OAuth) or VARG_API_KEY against https://api.varg.ai/v2. Models: https://varg.ai/models/llms.txt. Search skills and guides by task: https://varg.ai/how-to/llms.txt
+
+Licence: code and text MIT. The photos keep their own licences (CREDITS.md). The film and generated media may be watched, linked and embedded with a credit to this repo.
+
+## Start here
+
+- [README](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/README.md): the film, the ten steps in one table, the bill, the rules for real people, FAQ
+- [AGENTS.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/AGENTS.md): how to reuse this project for a new video, and what not to copy
+- [PROMPT.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/PROMPT.md): the paste-in request, line by line
+- [brief.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/brief.md): the original request and how the agent read it
+- [The film (MP4)](https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_adb09f98b297.mp4): 40.8 s, 854x480, 24 fps
+- [Project page](https://securityqq.github.io/ai-parody-video-claude-code/): the same guide as one web page, with the film
+
+## The ten steps
+
+- [1. References](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/refs/README.md): How the reference video was found and measured. Skill: https://varg.ai/how-to/skills/find-references.md
+- [2. Moodboard](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/look/README.md): A moodboard an AI image model can follow, checked on stills. Skill: https://varg.ai/how-to/skills/video-moodboard.md
+- [3. Sound](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/sound/README.md): AI voices, music and effects on one clock, mixed and checked by script. Skill: https://varg.ai/how-to/skills/video-sound.md
+- [4. Script](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/story/README.md): A parody script in 14 lines, each sized to its seconds. Skill: https://varg.ai/how-to/skills/video-script.md
+- [5. Characters](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/cast/README.md): Real people as photo cut-outs, without generating a face. Skill: https://varg.ai/how-to/skills/character-passport.md
+- [6. Blockout](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/blockout/README.md): A three.js blockout of the whole film before any video is generated. Skill: https://varg.ai/how-to/skills/code-to-video-previz.md
+- [7. Video generation](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/shots/README.md): Which shots go to an AI video model and which to code. Skill: https://varg.ai/how-to/skills/video-animate.md
+- [8. Edit](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/edit/README.md): Editing a video as code with HyperFrames: puppets, captions and labels. Skill: https://varg.ai/how-to/skills/edit-footage-with-code.md
+- [9. AI judge](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/review/README.md): An AI judge that measures the finished film and lists timed defects. Skill: https://varg.ai/how-to/skills/media-judge.md
+- [10. GitHub](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/github/README.md): Keeping an AI video project in GitHub: text in git, media in Releases. Skill: https://varg.ai/how-to/skills/video-project-github.md
+
+## Files worth opening
+
+- [refs/never.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/refs/never.md): eleven tests that reject a frame, a line or a voice in a parody of real people
+- [refs/timing.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/refs/timing.md): a reference clip measured beat by beat
+- [look/moodboard.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/look/moodboard.md): a moodboard written as checkable numbers
+- [story/script.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/story/script.md): the script table with seconds per beat
+- [sound/lines.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/sound/lines.md): voice lines as sent, with measured pace and retakes
+- [sound/beats.json](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/sound/beats.json): the clock the picture is cut to
+- [cast/sheets/prompt.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/cast/sheets/prompt.md): one image prompt for every body and prop
+- [shots/shots.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/shots/shots.md): which shots went to a video model and which to code, and why
+- [shots/sh020/shot.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/shots/sh020/shot.md): a Seedance 2.5 prompt with a blockout clip as video reference
+- [tools/build_edit.py](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/tools/build_edit.py): writes the HyperFrames project, photo puppets with voice-driven jaws
+- [tools/head_cut.py](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/tools/head_cut.py): cuts a head and a moving jaw out of a photo with a face mesh
+- [tools/build_sound.py](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/tools/build_sound.py): lays voice, music and effects on one clock
+- [tools/measure_film.py](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/tools/measure_film.py): reads every frame of a render: size, label, black frames, loudness
+- [review/review.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/review/review.md): three judge rounds with timed, measured defects
+- [review/round1_verdict.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/review/round1_verdict.md): the first judge's verdict as written
+- [review/spend.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/review/spend.md): cost per model
+- [CREDITS.md](https://raw.githubusercontent.com/SecurityQQ/ai-parody-video-claude-code/main/CREDITS.md): photo licences, references, voices, models
+
+## Optional
+
+- [varg how to](https://varg.ai/how-to): guides, skills and prompts for AI video, searchable by task
+- [How to remake a reference video with AI](https://varg.ai/how-to/remake-a-reference-video.md)
+- [vargHQ/skills](https://github.com/vargHQ/skills): the skills used here and about 70 more
+- [varg models](https://varg.ai/models/llms.txt): every model with its inputs and price
